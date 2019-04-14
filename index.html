@@ -3,7 +3,12 @@ layout: default
 title: Home
 ---
 
+
 <div class="home">
+
+
+    {% include typed.html %}
+
   <div class="post-list">
 
     {% for post in site.posts limit:5%}
@@ -19,9 +24,9 @@ title: Home
           {{ post.description}}
           {% else %}
           {{ post.excerpt }}
-          {% endif %} 
-          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> »  </a>
-        </p> 
+          {% endif %}
+          <a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> » </a>
+        </p>
       </div>
       <footer class="post_meta">
 
@@ -29,18 +34,15 @@ title: Home
         {% if post.location %}
         <span class="author-location">
           <div data-icon="ei-location"></div>
-          <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }}</a>
-        </span>
-        {% endif %}
-        <!--
-        {% for category in post.categories %}
-        <a href="{{"/category/" | append: category | prepend: site.baseurl }}">
-          <data data-icon="ei-archive"></data>
-          {{category}}</a>
-        {% endfor %}
-        -->
+          <a href=https://www.google.com/maps/place/{{post.location}}">{{ post.location }} </a> </span> {% endif %}
+            {% for category in post.categories %} <a
+            href="{{"/category/" | append: category | prepend: site.baseurl }}">
+            <data data-icon="ei-archive"></data>
+            {{category}}</a>
+          {% endfor %}
 
-        <!--
+
+          <!--
         {% if post.author %}
         <span class="author_meta">
           <img src="{{site.baseurl}}/assets/img/{{post.author}}.jpg"></img>
@@ -49,14 +51,14 @@ title: Home
         {% endif %}
         -->
 
-        <!--p class="readmore">
+          <!--p class="readmore">
           <a href=""><data data-icon="ei-arrow-right"></data>Read this article  </a>
         </p-->
       </footer>
-      <hr/>
+      <hr />
     </article>
     {% endfor %}
 
-    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive  </a></div>
+    <div class="pagination older-post"><a href="./archive"><data data-icon="ei-arrow-right"></data> Archive </a></div>
   </div>
 </div>
