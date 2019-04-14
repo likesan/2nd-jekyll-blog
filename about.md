@@ -4,8 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+Hello.
+This is SJ.
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
+I wish to seed and plant more natures on this world.
+Since starting of my Travel, I found the nature, as much as more surrounded ourselves, life quality got better.
 
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+Got away from the Rough people, Couldn't be meeting some people who are so rude.
+Could be away from Tourism.
+
+Can stay in peaceful vibe.
+
+<iframe width="100%" height="428px" src="https://www.youtube.com/embed/KFGQ4TSzeDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
