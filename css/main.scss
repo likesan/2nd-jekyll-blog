@@ -10,6 +10,14 @@
   font-size: 4.6452rem;
 }
 
+.date{
+  display:none;
+}
+
+.post-title:hover ~ .date {
+  display:inline-block;
+}
+
 
 // Our variables
 $base-font-family:  Helvetica, "Helvetica Neue", Arial, sans-serif;
