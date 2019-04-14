@@ -26,3 +26,7 @@ disqus_shortname: Ollagada
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
+
+# plugins
+plugins:
+    - jekyll-sitemap
