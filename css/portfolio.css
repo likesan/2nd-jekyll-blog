@@ -1,27 +1,34 @@
-#portfolio-wrapper{
-    display:grid;
-    grid-template-areas: 
-    "a a b"
-    "a a b"
-    "a a b"
-    "c c d"
-    "c c d";
+#portfolio-wrapper {
+
+
+    display: grid;
     width: 100%;
     height: 90vh;
     grid-gap: 3%;
-}
-#portfolio-wrapper>a{
-    box-shadow: 0px 3px 18px -5px grey;
+
+    grid-template-areas:
+        "a"
+        "b"
+        "c";
+   
+
 }
 
-.ellie-blog{
+
+#portfolio-wrapper>a {
+    box-shadow: 0px 3px 18px -5px grey;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.ellie-blog {
     background-image: url(https://user-images.githubusercontent.com/35059428/56089254-9cde6e00-5ec2-11e9-8728-325f8410fe90.png);
     background-size: cover;
-    grid-area : a;
+    grid-area: a;
 }
 
-.itso{
+.itso {
     background-image: url(https://user-images.githubusercontent.com/35059428/56089711-acad8080-5ec9-11e9-9804-2cf27f3eefcb.png);
     background-size: cover;
-    grid-area : c;
+    grid-area: b;
 }
