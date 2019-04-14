@@ -1,7 +1,8 @@
 ---
 
 title : How to Absolute displayed Component get to be middle in vertical align?
-tags : ["css","absolute component","vertical", "align"]
+category : css
+comments: true
 date : 2018-12-22
 thumbnail : "https://document-export.canva.com/DADT4VouGWY/21/thumbnail/0001-1417000423.png"
 

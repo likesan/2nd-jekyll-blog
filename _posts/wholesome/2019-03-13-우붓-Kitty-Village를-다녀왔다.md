@@ -1,7 +1,7 @@
 ---
 layout: post
 Comments : true
-Category : ["Bali", "Wholesome Jr"]
+Category : Wholesome.ee
 ---
 
 * TOC
