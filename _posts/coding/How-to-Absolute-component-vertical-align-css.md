@@ -1,5 +1,5 @@
 ---
-
+layout: post
 title : How to Absolute displayed Component get to be middle in vertical align?
 category : css
 comments: true

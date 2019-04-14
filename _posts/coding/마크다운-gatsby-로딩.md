@@ -1,5 +1,6 @@
 ---
 
+layout: post
 title: "마크다운 GatsbyJS 띄우기"
 date: 2018-09-23
 tags: ["마크다운","GatsbyJS","graphQL"]

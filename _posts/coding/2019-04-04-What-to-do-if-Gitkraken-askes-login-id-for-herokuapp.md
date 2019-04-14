@@ -1,4 +1,5 @@
 ---
+layout: post
 category: ["Coding","Git","Heroku"]
 comments: true
 ---
