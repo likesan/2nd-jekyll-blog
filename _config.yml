@@ -12,7 +12,9 @@ description: Wholesome life # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ollagada.github.io" # the base hostname & protocol for your site
 twitter_username: sjisyours 
-github_username:  Ollagada 
+github_username:  Ollagada
+instagram_username : wholsome.sj
+ellie_instagram_username : fullyraw.jennie_md
 
 # Build settings
 markdown: kramdown
