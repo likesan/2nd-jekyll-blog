@@ -13,7 +13,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ollagada.github.io" # the base hostname & protocol for your site
 twitter_username: sjisyours 
 github_username:  Ollagada
+
+# instagram
 instagram_username : wholsome.sj
+instafeed_accessToken : 2bbb977aca104cd38f6a6f347d4501b7
+instafeed_client_id : ca060da1e05e474788d194eb407b5c12
 ellie_instagram_username : fullyraw.jennie_md
 
 # Build settings

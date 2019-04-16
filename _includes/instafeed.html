@@ -1,0 +1,14 @@
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'popular',
+        tagName: '',
+        userId: '{{site.ellie_instagram_username}}',
+        clientId: '{{site.instafeed_client_id}}',
+        accessToken: '{{site.instafeed_accessToken}}',
+        sortBy: 'most-liked',
+        resolution: 'low-resolution'
+    });
+    feed.run();
+</script>
+
+<div id="instafeed"></div>
