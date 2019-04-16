@@ -16,8 +16,11 @@ github_username:  Ollagada
 
 # instagram
 instagram_username : wholsome.sj
-instafeed_accessToken : 2bbb977aca104cd38f6a6f347d4501b7
+
+# instafeed.js
+instafeed_ellie_user_id : 10439974221
 instafeed_client_id : ca060da1e05e474788d194eb407b5c12
+instafeed_accessToken : 10439974221.ca060da.7ca2ca8aec504583a396f67cbc1b82f9
 ellie_instagram_username : fullyraw.jennie_md
 
 # Build settings
