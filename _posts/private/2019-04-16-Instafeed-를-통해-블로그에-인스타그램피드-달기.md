@@ -5,6 +5,39 @@ comments: true
 ---
 
 
+# Instagram의 API 정책이 바뀐 뒤로, 안됨.
+
+
+기껏 3-4시간 투자해서 해놨더니,
+계속해서 다음과 같은 에러가 계속해서 났다.
+
+```console
+Uncaught Error: Error from Instagram: invalid media id
+```
+
+AccessToken을 서버사이드로 받았었고,
+Manage Account에서 Disable Oauth Implicit, Enforce to Require Login 등도 다 만져봤었지만...
+
+[안되는 이유](https://github.com/stevenschobert/instafeed.js)가 있었다.
+밑의 내용은, Instafeed.js 개발자 Readme.md 서 발췌
+
+```
+ IMPORTANT! Instagram is changing the API that Instafeed.js depends on.
+Before you decide to use instafeed.js, be aware that Instagram is shutting down the API platform that enables instafeed to work. As of now, instafeed.js works for some common uses (eg. embedding a single user's feed on a web page), but can't work for more complex uses (eg. retrieving all public images with a particular hashtag, finding posts based on a location, etc).
+The platform API will be turned off completely in 2020, which means that instafeed.js in its current form will stop working then.
+```
+
+```
+중요사항! 인스타그램이 Instafeed.js과 관련된 API를 바꾸고 있습니다.
+Instafeed.js를 쓰기 전에, Instagram 측에서 Instafeed.js 가 작동하지 못하게 하고 있다는 사실을 알아두세요. 
+
+지금은, 개인의 피드를 웹사이트에 올리는 정도의 일반적인 작업만 가능하지만, 모든 사진을 불러오거나, 특정 헤시태그의 사진만을 불러오거나, 위치를 통해 알아내는 것들은 불가능합니다.
+
+2020년부터는  API Platform 측에서 Instafeed.js가 완전히 사용되지 못하도록 조치할 예정입니다.
+```
+
+
+# 이 부분부터는 적용 방법
 
 
 좀 더 눈에 띄는 Landingpage를 만들기 위해,
@@ -13,7 +46,7 @@ comments: true
 
 CDN 이 있을 줄 알았더니, Local에 설치를 해줘야만 된다.
 
-# 순서
+## 순서
 
 1. `Yarn add instafeed.js`
 
@@ -62,6 +95,7 @@ curl -F 'client_id=[clientID]' -F 'client_secret=[clientSecret]' -F 'grant_type=
 # 참고
 
 [Sample Instagram Feed with Instafeed.js by Matthew Elsom](https://codepen.io/matthewelsom/pen/zrrrLN)
+
 [instafeed.js: The access_token provided is invalid](https://stackoverflow.com/questions/37675155/instafeed-js-the-access-token-provided-is-invalid#answer-37675277)
 
 
