@@ -234,13 +234,15 @@ time {
 }
 
 .article-content a {
-  border-bottom: 1px dotted red;
+  border-bottom: 1px dotted#c2c6cc;
   text-decoration: none;
+  transition-duration: 0.5s;
 }
 
 .article-content a:hover {
-  color: red;
-  border-bottom: 1px dotted red;
+  color: black;
+  border-bottom: 1px dotted black;
+  transition-duration: 0.5s;
 }
 
 .article-footer {
