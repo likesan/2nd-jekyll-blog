@@ -139,6 +139,8 @@ body {
     opacity: 1;
     height: auto;
     margin-bottom: -25px;
+    transition: all .4s;
+
   }
 }
 
@@ -199,7 +201,6 @@ input#menu-toggle {
   @extend .dont-break-out;
 }
 
-.post-list {}
 
 .post_header {
   margin-bottom: 1rem;
