@@ -34,20 +34,10 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 10px 10px;
-  box-sizing: border-box;
-
-}
 
 .column,
 .columns {
   width: 100%;
-  float: right;
   box-sizing: border-box;
 }
 
@@ -60,11 +50,6 @@
 
 /* For devices larger than 780px */
 @media (min-width: 781px) {
-
-  .column,
-  .columns {
-    margin-right: 4%;
-  }
 
   .column:first-child,
   .columns:first-child {
@@ -101,9 +86,6 @@
     width: 65.3333333333%;
   }
 
-  .nine.columns {
-    width: 74.0%;
-  }
 
   .ten.columns {
     width: 82.6666666667%;
