@@ -11,15 +11,21 @@ body {
 }
 
 @media (max-width:800px) {
-  body {
-    margin: 2.6rem;
+
+  .page-content {
+    margin: 0 auto;
+    width: 90vw;
   }
+
+
 }
 
-.page-content {
-  min-height: 100%;
-  box-sizing: border-box;
-  height: auto;
+@media (min-width:800px) {
+
+  .page-content {
+    margin: 0 auto;
+    width: 50vw;
+  }
 }
 
 .site-footer {

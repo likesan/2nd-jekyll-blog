@@ -1,3 +1,7 @@
 #disqus_thread{
     margin-top:6vw;
 }
+
+#no-posts, .disqus-footer__wrapper{
+    display:none;
+}

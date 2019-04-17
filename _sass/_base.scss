@@ -60,6 +60,7 @@
 
 /* For devices larger than 780px */
 @media (min-width: 781px) {
+
   .column,
   .columns {
     margin-right: 4%;
@@ -79,9 +80,6 @@
     width: 13.3333333333%;
   }
 
-  .three.columns {
-    width: 22%;
-  }
 
   .four.columns {
     width: 30.6666666667%;
@@ -612,6 +610,13 @@ hr {
 /* Images 
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+img {
+  display: block;
+  opacity: 0.9;
+  max-width: 100%;
+  box-shadow: 0px 6px 18px -6px grey;
+  margin: 0 auto;
+}
 
 // img hover effect
 img:hover,
@@ -628,12 +633,6 @@ img:checked {
 }
 
 
-img {
-  opacity: 0.9;
-  max-width: 100%;
-  vertical-align: middle;
-  box-shadow: 0px 6px 18px -6px grey;
-}
 
 
 
