@@ -55,16 +55,11 @@
 @media (min-width: 401px) {
   .container {
     width: 100%;
-    padding: 5vh 32px;
   }
 }
 
 /* For devices larger than 780px */
 @media (min-width: 781px) {
-  .container {
-    width: 90%;
-  }
-
   .column,
   .columns {
     margin-right: 4%;
