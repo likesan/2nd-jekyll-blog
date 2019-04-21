@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: css animation transition
-category : Coding CSS
+tags: [css, animation, transition,]
+category : [Coding, CSS]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout : post
 Comments : true
-Category: Coding CSS
+Category: [Coding, CSS]
 ---
 * TOC
 {:toc}
