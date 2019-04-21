@@ -1,7 +1,7 @@
 ---
 layout: post
 Comments : true
-Category : Wholesome.ee
+category : Wholesome.ee
 ---
 
 * TOC
