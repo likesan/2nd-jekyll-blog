@@ -24,7 +24,7 @@ body {
 
   .page-content {
     margin: 0 auto;
-    width: 50vw;
+    width: 40vw;
   }
 }
 
@@ -243,14 +243,14 @@ time {
 }
 
 .article-content a {
-  border-bottom: 1px dotted#c2c6cc;
+  // border-bottom: 1px dotted#c2c6cc;
   text-decoration: none;
   transition-duration: 0.5s;
 }
 
 .article-content a:hover {
   color: black;
-  border-bottom: 1px dotted black;
+  // border-bottom: 1px dotted black;
   transition-duration: 0.5s;
 }
 
