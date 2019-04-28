@@ -18,11 +18,7 @@ category: ["Coding","Jekyll"]
 
 2. 각 post 최상단에 밑의 코드를 넣어주자
 
-    ```markdown
-    * Toc
-    {:toc}
-    ```
-
+    
 # 결과 모습
 
 ![toc 적용 결과](https://user-images.githubusercontent.com/803398/28401295-0dcfb7ca-6d54-11e7-892b-2f2e6ca755a7.png)

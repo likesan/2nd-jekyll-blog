@@ -10,18 +10,13 @@ title: Sj
 email: sjisyours@gmail.com
 description: Wholesome life # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ollagada.github.io" # the base hostname & protocol for your site
+url: "https://wholesome-sj.github.io" # the base hostname & protocol for your site
 twitter_username: sjisyours 
-github_username:  Ollagada
+github_username:  wholesome-sj
 
 # instagram
 instagram_username : wholesome.sj
 
-# instafeed.js
-instafeed_ellie_user_id : 10439974221
-instafeed_client_id : ca060da1e05e474788d194eb407b5c12
-instafeed_accessToken : 10439974221.ca060da.7ca2ca8aec504583a396f67cbc1b82f9
-ellie_instagram_username : fullyraw.jennie_md
 
 # Build settings
 markdown: kramdown
