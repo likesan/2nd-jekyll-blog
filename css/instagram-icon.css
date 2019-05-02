@@ -1,9 +1,0 @@
-.fa-instagram:hover,
-.fa-instagram:checked {
-    transform: rotate(1095deg);
-    transition-duration: 1s;
-}
-
-.fa-instagram {
-    transition-duration: 1s;
-}
