@@ -1,0 +1,120 @@
+---
+
+layout: post
+title: "마크다운 GatsbyJS 띄우기"
+date: 2018-09-23
+tags: ["마크다운","GatsbyJS","graphQL"]
+thumbnail: "https://document-export.canva.com/DADMqasgh6Y/30/thumbnail/0001-760487798.png"
+path: "마크다운-gatsby-로딩"
+---
+# GraphQL을 통해 Path 불러오기
+
+이것도 좀 고생아닌 고생을 했다.
+어떻게해야 markdown 파일의 링크를 불러들여서 <Link to={ } > 안에 넣을 수 있는지 한참을 검색했다. 무려 한시간을 그렇게 고생한 것 같은데 답은 생각보다 쉬운 곳에 있었다.
+너무 쉬워서 당황스러울 지경.
+
+그냥 해당 마크다운 헤더부분 
+
+```
+---
+
+title: "my France working Holiday Experience"
+
+date: "2018-09-21"
+
+author: "SeungJin YOUN"
+
+path: /france-working-holiday/
+
+---
+
+```
+에 다음과 같이 작성하면, Graph QL 에서 path를 찾을 수 있다
+
+```graphql
+{ 
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+      totalCount
+      edges {
+        node {
+          fileAbsolutePath
+          id
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+            author
+            path
+                        
+          }
+          excerpt
+        }
+      }
+    }
+  }
+```
+
+그리고 data를 해당 react.js 에 받도록 한뒤 불러내면 된다고..
+
+`data.allMarkdownRemark.edges.node.frontmatter.path`
+
+node는 반복되므로 map을 이용하면 된다.
+
+```html
+<div  className="experiences">
+
+  
+
+{data
+
+.allMarkdownRemark
+
+.edges
+
+.map(({node}) => (
+
+<Link  to={node.filepath}>
+
+<div  key={node.id}
+
+className="post"
+
+style={{
+
+border:"1px solid grey",
+
+width:  "100%",
+
+height:  "100%",
+
+backgroundSize:  "cover",
+
+backgroundImage:  'url("'  +  ""  +  '")'
+
+}}>
+
+<div  className="post-header">{node.frontmatter.title}  <span>— {node.frontmatter.date}</span></div>
+<div  className="post-body">{node.excerpt}</div>
+</div>
+</Link>
+))}
+</div>
+```
+
+뭐 이런 느낌
+
+
+# Markdown GatsbyJS로 인식하기
+
+해당 과정은 한참을 검색하다, [Programmatically create pages from data](https://www.gatsbyjs.org/tutorial/part-seven/)를 찾아내어 따라했다. (아 애당초 gatsby 공식홈페이지 doc에서 찾아 봤었어야 했나... omg)
+
+쉽진 않았다. 
+
+# 요약
+
+1. root 폴더에 있는 gatsby-node.js 파일을 수정한다. 이를 통해 gatsby가 지정된 위치의 모든 markdown 타입의 파일을 인식한다. 
+2. 그리고 그 위치 `slug`라는 node로 지정하여(path 정도로 이해하면 될 듯) graphQL을 통해 url을 추출해온다.
+3. 해온 URL을 blog-post.js라는 template에 담아 markdown 갯수만큼 리스팅한다.
+
+사실 markdown을 어떻게 바로 인식시키는지 아무리 구글링해도 쉽게 나오지 않는 것 같아서 엄청 헤맸다. 아마 어제부터 계속 헷갈려한 것 같은데...
+그래도 끝끝내 답이 나오는걸 보면 신기하다. 이게 코딩하는 맛(?)
+ 

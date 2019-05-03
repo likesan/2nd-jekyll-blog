@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+
+#typed, .typed-cursor {
+    font-size:4rem;
+    font-family: 'Satisfy', cursive;    
+}
+#typed-wrapper{
+    height: 17vh;
+    padding-bottom:3rem;
+    text-align: right;
+}
