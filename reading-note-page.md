@@ -8,7 +8,9 @@ permalink: /reading-note/
 책 포스팅만 따로 담아둘 수 있도록 만들었다.
 
 어떤 책인지 한 눈에 담기는 것은 물론,
-내 스스로도 책을 더더욱 집중해서 읽어낼 수 있는 각성을 주지 않을까
+내 스스로도 책을 더더욱 읽어내고 싶어하는 마음을 주지 않을까
+
+요즘들어 다독이 땡긴다.
 
 <div class="wrapper-reading-note">
     <ul class="book-list">
