@@ -16,7 +16,7 @@ permalink: /reading-note/
     <ul class="book-list">
     {% assign book = "book" %}
             {% for post in site.posts %}
-                {% if post.category contains 'Book' %}
+                {% if post.category contains 'Book' or 'book' %}
                <li><a href="{{ post.url | prepand : site.baseurl}}"> {{ post.title }} </a></li>
                 {% endif%}
             {% endfor %}
