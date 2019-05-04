@@ -18,8 +18,7 @@ permalink: /reading-note/
             {% for post in site.posts %}
                 {% if post.category contains 'Book' %}
                <li><a href="{{ post.url | prepand : site.baseurl}}"> {{ post.title }} </a></li>
-                {% if post.category contains 'book' %}
-               <li><a href="{{ post.url | prepand : site.baseurl}}"> {{ post.title }} </a></li>
+               
                 
                 {% endif%}
             {% endfor %}
