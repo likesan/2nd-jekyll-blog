@@ -11,18 +11,16 @@ layout: default
     {% for category in post.categories %}
     <p>{{ category }}</p>
     {% endfor %}
-    
+
   </header>
 
   <div class="article-content" itemprop="articleBody">
     {{ page.content }}
   </div>
 
+  <!-- comment section -->
+  {% include dq.html %}
+  
+  <!-- comment section end -->
+
 </article>
-
-{% include related_post.html %}
-
-
-<footer class="disqus-section">
-    {% include dq.html %}
-  </footer>

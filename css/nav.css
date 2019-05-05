@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* mobile */
+@media (max-width:768px) {
+
+    .page-link li {
+        display: block;
+    }
+    
+    .page-link {
+        padding :0;
+        margin : 3vw;
+    }
+
+    .site-nav{
+        display:none;
+    }
+
+}
+
+/* laptop, tablet */
+@media (min-width:769px) {
+
+    .blog-owner-pic {
+        margin: 1vw auto;
+        
+    }
+
+    .page-link {
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        width: 50%;
+        justify-content:space-evenly;
+    }
+
+    .page-link li {
+        display: inline-block;
+    }
+
+}
+
+.blog-owner-pic {
+    height:100%;
+}
+
+.site-nav{
+    margin: 3vw;
+}
+.page-link li a {
+    text-transform: uppercase
+}

@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body>
-    <div class="page-content">
-      <div class="container">
-        <div class="three columns">
-          {% include side.html %}
-        </div>
+{% include head.html %}
 
+<body>
+  <div class="page-content">
 
-        <div class="nine columns" style="z-index:100;">
-          <div class="wrapper">
-            {{ content }}
-          </div>
-        </div>
+  {% include nav.html %}
+
+    <div class="nine columns" style="z-index:100;">
+      <div class="wrapper">
+        {{ content }}
       </div>
     </div>
-  </body>
+  </div>
+  </div>
+
+  {% if page.layout == post or page %}
+    {% include related_post.html %}
+    
+  {% endif %}
+
+{% include sns-footer.html %}
+
+
+</body>
+
 </html>

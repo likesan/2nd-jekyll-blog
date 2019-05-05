@@ -2,16 +2,17 @@
   {% capture pageCategory %}{{ page.category | first }}{% endcapture %}
   {% unless site.categories[pageCategory].size == 1 %}
     <div class="row related-posts">
-      <h2 class="text-center">{{ pageCategory | capitalize }}</h2>
-      <div class="medium-12 small-12 columns">
-        {% for post in site.categories[pageCategory] limit:5 %}
+      <div class="grid-wrapper">
+      {% for post in site.categories[pageCategory] limit:6 %}
           {% unless post.title == page.title %}
 
-           <h4>
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-              {{ post.title }}
+
+              <h4>
+                {{ post.title }}
+              </h4>
+
             </a>
-           </h4>
 
           {% endunless %}
         {% endfor %}

@@ -7,9 +7,9 @@
 }
 
 #typed-wrapper {
-    height: 17vh;
+    text-align: left;
     display: table-cell;
-    text-align: center;
-    padding-bottom: 3rem;
-    text-align: right;
+    vertical-align: middle;
+    line-height: center;
+    height: 60vh;
 }

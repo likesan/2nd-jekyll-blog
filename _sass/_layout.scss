@@ -12,7 +12,7 @@ body {
 
 @media (max-width:800px) {
 
-  .page-content {
+  .wrapper > * {
     margin: 0 auto;
     width: 90vw;
   }
@@ -22,11 +22,16 @@ body {
 
 @media (min-width:800px) {
 
-  .page-content {
+  .wrapper:nth-child(1){
     margin: 0 auto;
     width: 40vw;
   }
+  .wrapper > .related_post{
+    min-width: 100vw;
+    background: #80808012;
+  }
 }
+
 
 .site-footer {
   position: absolute;
@@ -127,82 +132,14 @@ body {
     /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
     // Import partials from `sass_dir` (defaults to `_sass`)
 
-    opacity: 0;
-    height: 0;
     -webkit-transition: all .4s;
     transition: all .4s;
 
-    -webkit-justify-content: center;
-    justify-content: center;
 
     @include media-query($on-laptop) {
       border-top: 1px solid #ddd;
       border-bottom: 1px solid #ddd;
     }
-  }
-
-  #menu-toggle:checked+.site-nav {
-    opacity: 1;
-    height: auto;
-    margin-bottom: -25px;
-    transition: all .4s;
-
-  }
-}
-
-input#menu-toggle {
-  display: none;
-}
-
-.nav .menu-icon {
-  display: none;
-  position: absolute;
-  right: 5%;
-
-  @include media-query($on-laptop) {
-    top: 67px;
-
-    @include media-query(400px) {
-      top: 13px;
-    }
-
-    display: block;
-    text-align: center;
-
-    &:hover {
-      >svg {
-        path {
-          fill: $grey-color;
-        }
-      }
-    }
-
-    >svg {
-      width: 18px;
-      height: 15px;
-
-
-      path {
-        fill: $grey-color-dark;
-      }
-    }
-  }
-}
-
-// nav font family
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-.site-header {
-  text-align: right;
-  font-family : 'Open Sans', sans-serif; 
-
-  @include media-query($on-laptop) {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  nav a {
-    font-weight: 400;
   }
 }
 
@@ -274,58 +211,6 @@ time {
 /* author info */
 
 
-.author {
-  @media (max-width: $on-laptop) {
-    display: inline-block;
-    text-align: center;
-  }
-}
-
-.authorimage {
-  @media (min-width: $on-laptop+1) {
-    float: left;
-  }
-
-  display:inline-block;
-  width: 90px;
-  height: 90px;
-  border-radius: 5%;
-  -webkit-background-size: cover !important;
-  background-size: cover !important;
-  background-position: center center !important;
-  margin-right: 10px;
-}
-
-.authorinfo {
-  .bio {
-    color: #999;
-  }
-}
-
-
-
-/* footer */
-
-.footer {
-  float: left;
-}
-
-.left {
-  text-align: center;
-
-  @media (min-width: $on-laptop) {
-    text-align: left;
-  }
-}
-
-.right {
-  text-align: center;
-
-  @media (min-width: $on-laptop) {
-    text-align: right;
-  }
-
-}
 
 /* icon */
 

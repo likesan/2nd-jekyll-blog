@@ -18,6 +18,8 @@
  
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/nav.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/sns-footer.css" | prepend: site.baseurl }}">
   
   {% if site.baseurl %}
   <link rel="stylesheet" href="{{ "/css/typed.css" | prepend: site.baseurl }}">
@@ -32,10 +34,10 @@
   <link rel="stylesheet" href="{{ "/css/bucketlist.css" | prepend : site.baseurl }}">
   {% endif %}
 
-  {% if page.layout == post %}
+  {% if page.layout == (post or page) %}
   <link rel="stylesheet" href="{{ "/css/dq.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
-
+  <link rel="stylesheet" href="{{ "/css/related_post.css" | prepend: site.baseurl }}">
   {% endif %}
   
 
