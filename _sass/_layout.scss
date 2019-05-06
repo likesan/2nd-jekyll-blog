@@ -10,17 +10,25 @@ body {
   height: auto;
 }
 
-@media (max-width:800px) {
+@media (max-width:426px) {
 
   .wrapper > * {
-    margin: 0 auto;
-    width: 90vw;
-  }
+    margin: 0 7vw;
+    width: 80vw;
+    }
 
 
 }
 
-@media (min-width:800px) {
+@media (min-width:426px) and(max-width:768px) {
+  .wrapper > * {
+    margin: 0 auto;
+    width: 90vw;
+    }
+
+}
+
+@media (min-width:1024px) {
 
   .wrapper:nth-child(1){
     margin: 0 auto;
