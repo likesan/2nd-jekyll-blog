@@ -3,13 +3,13 @@
     background-color: #88888812;
 
 }
-
-@media (min-width:800px) {
-    .grid-wrapper {
-        display: grid;
-        width: 50vw;
-        margin: 0 auto;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap:4vw;
-    }
+.grid-wrapper {
+    display: grid;
+    width: 50vw;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:4vw;
 }
+/* @media (min-width:800px) {
+   
+} */
