@@ -8,6 +8,9 @@ permalink : /bucketlist
 * TOC
 {:toc}
 
+<div style="display:table-cell;vertical-align:middle;font-size:7vw;text-align:center;">
+Draw Where You want to be
+</div>
 
 # 목표 설정이 에센셜
 
@@ -83,7 +86,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 ![요기니-중급자-달성](https://images.pexels.com/photos/1139484/pexels-photo-1139484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
 
-* [ ] 요기니 중급자
+* [ ] Kundalini 요가 Teacher Trainning 
 
 요가 욕심이 생겨
 
@@ -129,10 +132,10 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 # 재산
 
 * [ ] 매달 패씨브 인컴 300만원 
-
 * [ ] 디지털 노마드 스러운 가방?
 * [X] ~~*디지털 노마드스럽게 어디든 다닐 수 있는 트레킹 샌들*~~ [2019-05-03] flipper 신발 구매 완료
 * [ ] 돈 잘버는 고양이 집사???
+* [ ] 고양이 장난감, 피드퍼즐
 
 고양이가 정말 귀엽긴한데 손이 덜 갔으면 좋겠어
 내 자신을 더 사랑할 수 있는 시간을 갖고 싶단 말이지...
@@ -157,7 +160,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 # 블로그
 
-* [ ] 인정받는 블로그
+* [ ] 인정받는 블로그?
 * [ ] 영어 블로그(외국인 인게이지율이 더 높음)
 * [ ] 매일의 인게이지먼트가 2000개 이상 
 
@@ -166,6 +169,9 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 * [ ] [SEO Optimization](https://smallseotools.com/website-seo-score-checker/) 100% 달성시키기
 * [ ] 하루 1가지 SEO 불만족 요건 충족
 * [ ] 아침 글쓰기로 시작된 하나의 포스팅... 매일매일 아침 글쓰기
+* [ ] 감사일기 매일 작성
+* [ ] Grammarly Installing
+* [ ] Landing page Youtube installing
 
 # 재정
 
@@ -177,7 +183,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 # 의사소통
 
 
-* [ ] 발리든 하와이든 나만의 집이 있어 언제든 돌아올 수 있는 삶
+* [ ] 발리든 하와이든 나만의 집이 있어 언제든 돌아올 수 있는 삶?
 * [ ] 주변 사람들에게 인정받는 삶
 * [ ] 그리고 몸도 꽤나 건강해져있는 삶
 
@@ -188,6 +194,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 자동이체를 해야하나
 
 * [ ] 2-3벌의 옷으로 깔끔하게 다닐 수 있는 삶
+* [ ] Sporty top for being nice in Yoga
 
 
 
@@ -204,12 +211,18 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 # 아이템
 
-* [ ] 아이폰 XS
+* [ ] 아이폰 XS급 카메라
+- SNS로 공유하기 쉬워야
+- Google Photo Cloud와 연동이 빨라야
 
-XS가 필수일까?
-99
-* [ ] 맥북
+![Mac-book-pro](https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+
+* [ ] 맥북(IOS가 사용 가능한 랩탑 환경)
+
+![world-travel-stamped-passport](https://media.istockphoto.com/photos/passport-travel-stamps-picture-id162449731?s=2048x2048)
 * [ ] 세계여행을 끝낸 여권
+
+![lineless-env](https://images.pexels.com/photos/399160/pexels-photo-399160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 * [ ] 선없는 마우스 및 장비
 
 

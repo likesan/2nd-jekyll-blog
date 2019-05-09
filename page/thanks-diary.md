@@ -92,6 +92,8 @@ Radiently 요가를 다녀왔다. '아름답다' '아름답네..' 라며 내 삶
 
 ## 6일 일
 
+![kundalini-yoga-radiantly-sj](https://user-images.githubusercontent.com/35059428/57423644-68529d80-7247-11e9-86bc-0ab198ddb3d9.jpg)
+
 요가를 두 번 했다.
 하체가 찢어지는 듯. Yin 요가임에도 쭉쭉 늘리는 포즈로 들어가면 내 유연성의 한계까지 가보려한다.
 그 의지 덕분에 하체가 찢긴다. 그래도 나름 유연성과 협응성은 길러지는 듯.
@@ -99,4 +101,19 @@ Radiently 요가를 다녀왔다. '아름답다' '아름답네..' 라며 내 삶
 사와발리, 아노말리를 가면 기쁘다. 스태프들이 우릴 기억해주고 단골이라 알기에 친구 같은 느낌. 발리에서 지내는 삶이 행복하도록 돕는 이들
 
 내 블로그를 좀 더 수정했다. 코딩이 늘 재밌고 몰입되는 활동이라는 걸 다시 일깨워주니 감사.
+
+
+## 8th, Wed
+
+![kundalini-yoga-amrita](https://user-images.githubusercontent.com/35059428/57423542-fbd79e80-7246-11e9-9861-18c5fe978ba1.jpg)
+
+realized The Kundalini yoga is my type.
+
+
+the feelings are so good when I finish up the yoga, which is top priority for Ellie. Homework first!
+
+
+![luis-denielle-sj](https://user-images.githubusercontent.com/35059428/57423587-32adb480-7247-11e9-9df1-d8001bbea564.jpg)
+
+met Luis & Denielle, Learned 'Freedom manager' existes.
 

@@ -1,3 +1,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+
+_includes/go-top\.html
+
+css/go-top\.css
