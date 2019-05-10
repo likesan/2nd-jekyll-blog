@@ -1,5 +1,5 @@
 ---
-layout : post
+layout : page
 category : [thanks diary, essay]
 permalink : /thanks-diary/
 

@@ -1,14 +1,19 @@
 ---
-layout : post
+layout : page
 category : [bucketlist, essay]
 comments : true
 permalink : /bucketlist
 ---
 
 
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
 
-<div style="display:table-cell;vertical-align:middle;font-size:7vw;text-align:center;">
-Draw Where You want to be
+</style>
+
+<div style="height:30vw;display:table-cell;vertical-align:middle;font-size:4vw;text-align:center;font-family: 'Reenie Beanie', cursive;
+">
+"Draw Where You want to be"
 </div>
 
 # 목표 설정이 에센셜
@@ -132,6 +137,9 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 # 재산
 
+* [ ] 하와이, 집, 산책, 엘리, 퍼머컬처, 정원, 요가
+* [ ] 해외에서도 사용 가능한 복리계좌 오픈
+* [ ] 발리든 하와이든 나만의 집이 있어 언제든 돌아올 수 있는 삶?
 * [ ] 매달 패씨브 인컴 300만원 
 * [ ] 디지털 노마드 스러운 가방?
 * [X] ~~*디지털 노마드스럽게 어디든 다닐 수 있는 트레킹 샌들*~~ [2019-05-03] flipper 신발 구매 완료
@@ -184,7 +192,6 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 # 의사소통
 
 
-* [ ] 발리든 하와이든 나만의 집이 있어 언제든 돌아올 수 있는 삶?
 * [ ] 주변 사람들에게 인정받는 삶
 * [ ] 그리고 몸도 꽤나 건강해져있는 삶
 
@@ -237,4 +244,3 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 확실히 마우스가 있고 없고가 편하다 아니다의 기준이 된다. 마우스가 있으면 훨씬 편안하게 뭔가를 해낼 수 있어
 스크린패드보다 훨씬 빠른 속도로 일처리를 끝낼 수 있지.
 물론 스크린패드를 쓰면 부족한 마우스를 대체하기 위해 필사적으로 더 단축키를 찾아다니게 된다는 장점이 생기긴 하지 :)
-

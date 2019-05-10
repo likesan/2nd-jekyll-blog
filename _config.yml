@@ -17,6 +17,7 @@ blog_owner_pic : https://user-images.githubusercontent.com/35059428/57188024-86a
 # Social Account
 instagram_username : wholesome.sj
 youtube_channel : UCYGePlIyuiL4n2aSJbf327g
+permalink: /:path
 
 # Build settings
 markdown: kramdown
