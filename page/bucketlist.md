@@ -18,6 +18,7 @@ permalink : /bucketlist
 <div style="height:30vw;display:table-cell;vertical-align:middle;font-size:4vw;text-align:center;font-family: 'Reenie Beanie', cursive;
 =======
 <div style="width:80vw;height:25vw;display:table-cell;vertical-align:middle;font-size:3vw;text-align:center;font-family: 'Caveat', cursive;
+>>>>>>> Stashed changes
 ">
 "Draw Where You want to be"
 </div>
