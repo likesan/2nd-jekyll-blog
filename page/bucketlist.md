@@ -5,8 +5,7 @@ comments : true
 permalink : /bucketlist
 ---
 
-* TOC
-{:toc}
+
 
 <div style="display:table-cell;vertical-align:middle;font-size:7vw;text-align:center;">
 Draw Where You want to be
@@ -33,6 +32,8 @@ Draw Where You want to be
 
 
 # 삶 
+
+* [ ] 하와이에서 숙소 잡고 퍼머컬처, 해변 산책
 
 * [ ] 자유
 
