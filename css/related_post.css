@@ -10,6 +10,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap:4vw;
 }
-/* @media (min-width:800px) {
-   
-} */
+.related_post_title{
+    text-align: center;
+}

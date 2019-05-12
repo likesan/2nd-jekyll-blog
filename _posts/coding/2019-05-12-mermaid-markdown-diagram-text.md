@@ -4,6 +4,9 @@ category : [coding, jekyll, mermaid, diagram]
 comments : true
 ---
 
+* TOC
+{:toc}
+
 # Summary
 
 <div class="mermaid">
@@ -95,4 +98,8 @@ add-`gem-'Jekyll-Mermaid'-on-Gemfile-->Jekyll-Mermaid;
     ```
 
     then it's working perfectly :D
+
+# References
+
+1. [Mermaid Jekyll Repository](https://github.com/knsv/mermaid)
 
