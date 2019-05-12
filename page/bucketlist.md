@@ -4,19 +4,19 @@ category : [bucketlist, essay]
 comments : true
 permalink : /bucketlist
 ---
-<style>
-@import url('https://fonts.googleapis.com/css?family=Caveat');
-</style>
-
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
-
-</style>
-
-<!-- <div style="height:30vw;display:table-cell;vertical-align:middle;font-size:4vw;text-align:center;font-family: 'Reenie Beanie', cursive; -->
-<div style="width:80vw;height:25vw;display:table-cell;vertical-align:middle;font-size:3vw;text-align:center;font-family: 'Caveat', cursive;">
-"Draw Where You want to be"
+<div class="bucketlist-quote">
+    "Draw Where You want to be"
 </div>
+
+<div class="magnetic-grid">
+    {% for post in site.posts %}
+    {% if post.category contains 'Bucketlist' %}
+    <img class="wishes" src="{{post.thumbnail}}" alt="{{post.title}}">
+    {% endif %}
+    {% endfor %}
+</div>
+
+
 
 # 목표 설정이 에센셜
 
@@ -28,7 +28,7 @@ permalink : /bucketlist
 삶에서 아무것도 제대로 이루지 못하게 만든다.
 
 이 방향성을 늘 고수하기 위해 적는 버킷리스트
-내가 진정으로 바라는 것들이 무엇인지 팍 눈에 띄도록 
+내가 진정으로 바라는 것들이 무엇인지 팍 눈에 띄도록
 
 # 하고 싶은 일을 쫓자
 
@@ -38,10 +38,10 @@ permalink : /bucketlist
 * [ ] 보다 구체적인 버킷리스트, 다른 사람들을 참고해야하나
 
 
-# 삶 
+# 삶
 
-* [ ] 하와이에서 숙소 잡고 퍼머컬처, 해변 산책
-
+* [ ] 정원
+* [ ] 퍼머컬처가 깃든 삶
 * [ ] 자유
 
 그래 내 자유가 얽매이지 않았으면 좋겠지
@@ -63,7 +63,7 @@ permalink : /bucketlist
 Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 
-# 태도 
+# 태도
 
 * [ ] 뭐가 가장 나은지 모를 땐, 이것 저것 해보면서 OUTPUT의 정도를 체크해보기
 * [ ] 버리고 채우는 것을 잘해낼 수 있는 삶, 곤도마리에로부터 배우기
@@ -87,14 +87,14 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 ![목표-인플루언서](https://images.pexels.com/photos/1437904/pexels-photo-1437904.jpeg?cs=srgb&dl=adult-aerial-background-1437904.jpg&fm=jpg)
 
-* [ ] 영상편집자적 능력 = 공감 소통 능력자 = 인플루언서 = 믿을만한 사람 
+* [ ] 영상편집자적 능력 = 공감 소통 능력자 = 인플루언서 = 믿을만한 사람
 * [X] ~~*외국애들과도 즐겁게 이야기할 수 있는 모습*~~ [2019-05-07]
 * [X] ~~*유창한 영어로 사람들과 소통하는 삶*~~ [2019-05-07]
 * [X] ~~*식사하던 그 자리에서 유창한 영어*~~ [2019-05-07]
 
 ![요기니-중급자-달성](https://images.pexels.com/photos/1139484/pexels-photo-1139484.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
 
-* [ ] Kundalini 요가 Teacher Trainning 
+* [ ] Kundalini 요가 Teacher Trainning
 
 요가 욕심이 생겨
 
@@ -110,7 +110,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 
 
-# 공부 
+# 공부
 
 ![100권-독서](https://images.pexels.com/photos/1166657/pexels-photo-1166657.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 
@@ -142,7 +142,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 * [ ] 하와이, 집, 산책, 엘리, 퍼머컬처, 정원, 요가
 * [ ] 해외에서도 사용 가능한 복리계좌 오픈
 * [ ] 발리든 하와이든 나만의 집이 있어 언제든 돌아올 수 있는 삶?
-* [ ] 매달 패씨브 인컴 300만원 
+* [ ] 매달 패씨브 인컴 300만원
 * [ ] 디지털 노마드 스러운 가방?
 * [X] ~~*디지털 노마드스럽게 어디든 다닐 수 있는 트레킹 샌들*~~ [2019-05-03] flipper 신발 구매 완료
 * [ ] 돈 잘버는 고양이 집사???
@@ -173,7 +173,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 * [ ] 인정받는 블로그?
 * [ ] 영어 블로그(외국인 인게이지율이 더 높음)
-* [ ] 매일의 인게이지먼트가 2000개 이상 
+* [ ] 매일의 인게이지먼트가 2000개 이상
 
 ![analytics-goal](https://user-images.githubusercontent.com/35059428/57271472-2815e280-70c2-11e9-9bc7-1ca8c4170d55.png)
 
@@ -225,15 +225,7 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 - SNS로 공유하기 쉬워야
 - Google Photo Cloud와 연동이 빨라야
 
-![Mac-book-pro](https://images.pexels.com/photos/249538/pexels-photo-249538.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
 
-* [ ] 맥북(IOS가 사용 가능한 랩탑 환경)
-
-![world-travel-stamped-passport](https://media.istockphoto.com/photos/passport-travel-stamps-picture-id162449731?s=2048x2048)
-* [ ] 세계여행을 끝낸 여권
-
-![lineless-env](https://images.pexels.com/photos/399160/pexels-photo-399160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
-* [ ] 선없는 마우스 및 장비
 
 
 나는 계속 다 돌아다녀보고 안목과 지평을 넓히고싶다.
