@@ -35,5 +35,6 @@ excerpt_separator: <-!->
 # plugins
 plugins:
     - jekyll-sitemap
+    - jekyll-mermaid
 
 permalink: /:path
