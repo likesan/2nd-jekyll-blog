@@ -9,13 +9,8 @@
         text-align: center;
     }
 
-    .page-link li:nth-child(7) {
-        display: none;
-    }
-
     .page-link {
         padding: 0;
-        margin: 3vw;
     }
 
     #nav {
@@ -25,6 +20,7 @@
     #nav-trigger {
         text-align: center;
         display: block;
+        border-bottom: 1px solid #ddd;
     }
 
 }

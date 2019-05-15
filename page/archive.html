@@ -11,10 +11,8 @@ permalink : /archive
       <h2>{{ category | first | capitalize }}</h2>
     </div>
     {% for post in category.last %}
-
     <div class="post_title">
       <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <span class="date">{{ post.date | date: "%-d %b, %Y" }}</span>
     </div>
 
     {% endfor %}
@@ -24,5 +22,3 @@ permalink : /archive
   </section>
 
 </div>
-
-
