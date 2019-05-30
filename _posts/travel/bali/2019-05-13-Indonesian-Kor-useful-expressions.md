@@ -1,7 +1,6 @@
+# 인도네시아어 
 
 리마나마나 - everywhere
-
-
 카부스 - 핫
 리우 라빠르 - very hungry
 아바가바르 How are you
@@ -32,19 +31,40 @@
 디다 - no 
 다니 - 9
 
-발리어
-껭껭 까바래 - how are you?
+# 발리어
 
+Tegal - Jungle 
 
+## 안부 
+
+껭껭 까바래 - How are you?
 맛깔라 씽따뽀 - 롱 타임 노 씨
-블리 + 이름 = 상대가 누군지는 모르는데, 'Bro'라 친근하게 부르면서 Respectful하게 부르고 싶을때, 블리 + (크리스티앙) 이라 부르면 된다.
-바잌 = 예) 안나 바잌 = You are kind! 
+스낭 바르줌빠 안다 - Nice to meet you
+부나삐 까뜨르 빠데 - How are you mr! 
+부나삐 까뜨르 블리 - How are you Bro(respectful way)!
+라하장 쓰멍 - Good Morning
+
+## 안도
+
+씽껭껭 - No worries
+
+
+## 요청
+
 사야 마우 뻬르기 끄 후붓 - I wanna go to hubud
+
+## 호칭
+
+블리 + 이름 = 상대가 누군지는 모르는데, 'Bro'라 친근하게 부르면서 Respectful하게 부르고 싶을때, 블리 + (크리스티앙) 이라 부르면 된다.
+
+## 감탄
+
 쟌 가띠 - it was so good!
 댜 바빠 - nothing
-스낭 바르줌빠 안다 - nice to meet you
-부나삐 까뜨르 빠데 - how are you mr! 
-부나삐 까뜨르 블리 - How are you Bro(respectful way)!
+바잌 = 예) 안나 바잌 = You are kind! 
+
+꼴까쓰 - 냉장고
+
 
 나쁜말
 뿌키 - fuck!
@@ -123,10 +143,12 @@ Maya
 아유 - Ubud Roastery
 펫샵 이모 - 요시
 
-
 에코 와룽
 부따스테이 : 오몽, 카덱 두 명
 마찬다 아자 - It's fun
+
+안나 다릭 우붓 - I am from ubud
+나마 안다 ? - Name your?
 
 
 Mantap Jiwa - 만탑 가 슬랭형태
