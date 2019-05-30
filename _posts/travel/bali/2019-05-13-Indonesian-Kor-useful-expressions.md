@@ -48,6 +48,9 @@ Tegal - Jungle
 
 씽껭껭 - No worries
 
+## 축하
+
+라 하장 완띠 와르써 - 생일 축하해 
 
 ## 요청
 
@@ -107,7 +110,9 @@ Tegal - Jungle
 사과
 마합 - im sorry
 
-표현
+## 표현
+
+마찬트 - 호랑이
 -빠데 - 더 정중한 표현 sir! Mr!
 만땀 가 - wow perfect!
 Mantab BBatul - 대박
@@ -122,7 +127,7 @@ Have a good day?
 쓰낭 - happy 
 간뜽 - 
 
-감탄
+## 감탄
 메낙 저깐 - Menakjubkan / mengesankan - ( wow beautiful )
 바구스 - (남자) 멋있다
 나 삐띵 알렌? - what do you say?
