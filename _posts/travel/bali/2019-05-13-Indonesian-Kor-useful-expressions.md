@@ -1,5 +1,6 @@
 # 인도네시아어 
 
+에낙 스칼리 수까 - It's delicious I like
 
 짜뚜라기 - one more plate(짜뚜)
 
