@@ -1,6 +1,7 @@
 # 인도네시아어 
 
-짜뚜라기 - one more
+
+짜뚜라기 - one more plate(짜뚜)
 
 마니스 = Sweet
 
