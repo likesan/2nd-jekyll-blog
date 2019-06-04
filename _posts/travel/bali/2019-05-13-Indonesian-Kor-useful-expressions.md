@@ -1,35 +1,71 @@
 # 인도네시아어 
 
+마니스 = Sweet
+
+모도 = ugly, stupid
+
+고도 = Snake
+
+모독 = crazy
+
 리마나마나 - everywhere
+
 카부스 - 핫
+
 리우 라빠르 - very hungry
+
 아바가바르 How are you
+
 잔띠 - 풍경/여성 이 아름다울 때
+
 짜뻬 스칼리 - 힘들어
+
 살라맛 - how are you?
+
 살라맛 닽앙 - 웰컴
+
 닽앙 - 컴
+
 구루 - 티쳐
+
 아빠양 아나리안 - what is it? What do you say?
+
 스디킷 스디킷 - a little a little
+
 라기 라기 - more more / back
+
 안다 - you 
+
 사야 - me 
+
 사야 오랑 꼬레아 - i'm from Korea
+
 안다 오랑 덴파사르 - you're from Denpasar
+
 안다 스낭 발리 - you like 
+
 사야 수카 스칼리 - I'm so happy
+
 사야 수카 막간 - I like it
+
 사야 타우 막간 - I know it
+
 사야 수간 므눌리스 - I want to write
 
 아빠양 아나리안 막간 - What is it?
+
 사뚜 아리 사짜 - one day
+
 상하다 루쭈 스칼리 - it's very fun!
+
 뜨만아 와얀 - where are you?
+
 쟈옥 - 멀다
+
 디다 - no 
+
 다니 - 9
+
 
 # 발리어
 
