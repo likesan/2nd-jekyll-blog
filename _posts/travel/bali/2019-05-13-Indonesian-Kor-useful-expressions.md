@@ -1,5 +1,7 @@
 # 인도네시아어 
 
+짜뚜라기 - one more
+
 마니스 = Sweet
 
 모도 = ugly, stupid
