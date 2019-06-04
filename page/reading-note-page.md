@@ -12,13 +12,16 @@ permalink: /reading-note/
 
 요즘들어 다독이 땡긴다.
 
+현재 읽은 양 : {{site.categories['Book'].size}}
+
+<progress value="{{site.categories['Book'].size}}" max="100"></progress>
+
+
 <div class="wrapper-reading-note">
     <ul class="book-list">
             {% for post in site.posts %}
                 {% if post.category contains 'Book' %}
                <li><a href="{{ post.url | prepand : site.baseurl}}"> {{ post.title }} </a></li>
-               
-                
                 {% endif%}
             {% endfor %}
     </ul>

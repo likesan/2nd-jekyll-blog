@@ -116,8 +116,6 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 * [ ] 책 리뷰 100여권 돌파하기
 
-<progress value="{{site.categories['Book'].size}}" max="100"></progress>
-
 
 내 안의 지평을 더 넓힐 수 있겠지..
 
