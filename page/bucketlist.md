@@ -7,14 +7,14 @@ permalink : /bucketlist
 <div class="bucketlist-quote">
     "Draw Where You want to be"
 </div>
-
+<!-- 
 <div class="magnetic-grid">
     {% for post in site.posts %}
     {% if post.category contains 'Bucketlist' %}
     <img class="wishes" src="{{post.thumbnail}}" alt="{{post.title}}">
     {% endif %}
     {% endfor %}
-</div>
+</div> -->
 
 
 
