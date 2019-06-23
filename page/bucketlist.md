@@ -165,6 +165,10 @@ Output 을 파악해내고, Input을 정량화하면 되는 걸까?
 
 ![근육-목표](https://images.pexels.com/photos/50597/man-male-boy-a-person-50597.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
 
+
+![Ashtangi-yoginis-body](https://i.pinimg.com/736x/6e/df/8a/6edf8a0ac100252401d47422b8a96370--fitness-inspiration-yoga-inspiration.jpg)
+
+
 * [ ] 제지방 근육량 60kg
 * [ ] 10시 취침
 * [ ] 아쉬탕기의 몸
