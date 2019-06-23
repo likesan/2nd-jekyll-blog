@@ -13,7 +13,7 @@ permalink : /archive
    -->
     {% for post in category.last %}
     <div class="post_title">
-      <a class="post-title" href="{{ post.url | prepend: site.baseurl | uniq }}">{{ post.title }}</a>
+      <a class="post-title" href="{{ post.url | prepend: site.baseurl | uniq }}">{{ post.title | uniq }}</a>
     </div>
 
     {% endfor %}
