@@ -1,11 +1,14 @@
 /* layout */
 html,
 .container {
-  position: relative;
   min-height: 100%;
 }
 
 body {
+  display: grid;
+  grid-template:'a b a'
+                'a b a'
+                'a b a';
   min-height: 100%;
   height: auto;
 }
