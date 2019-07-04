@@ -21,6 +21,7 @@ comments : true
 
 판매의 수익금을 기부 및 유기동물 문제를 없애는데 쓰려고 합니다!
 
+
 # 지금 도움을 주시는 분들 기억하고 있을거에요😍
 
 추후에는 친환경 소재로만 만들어진 애묘용품을 내놓을까 고민 중입니다! 
@@ -28,6 +29,6 @@ comments : true
 
 # 고맙습니다🙏🏻
 
-- [추가 후원 방법(페이팔, 유튜브)](lnk.bio/2WSX) 
-- [@eco.jennie]( https://instagram.com/eco.jennie)
-- [@rescued.5cats.ubud](https://instagram.com/rescued.5cats.ubud)
+[추가 후원 방법(페이팔, 유튜브)](https://lnk.bio/2WSX) 
+[@eco.jennie]( https://instagram.com/eco.jennie)
+[@rescued.5cats.ubud](https://instagram.com/rescued.5cats.ubud)
