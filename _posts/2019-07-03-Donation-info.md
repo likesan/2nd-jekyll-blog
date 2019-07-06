@@ -30,4 +30,4 @@ comments : true
 
 [추가 후원 방법(페이팔, 유튜브)](https://lnk.bio/2WSX) 
 [@eco.jennie]( https://instagram.com/eco.jennie)
-[@rescued.5cats.ubud](https://instagram.com/rescued.5cats.ubud)
+[@rescued.5cats.ubud](https://instagram.com/we.will.together)
