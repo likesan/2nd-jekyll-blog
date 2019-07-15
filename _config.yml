@@ -15,8 +15,8 @@ twitter_username: sjisyours
 github_username:  wholesome-sj
 blog_owner_pic : https://user-images.githubusercontent.com/35059428/57188024-86a85880-6f2a-11e9-8c25-2a0ef0cce90f.png
 # Social Account
-instagram_username : wholesome.nomad.sj
-youtube_channel : UCYGePlIyuiL4n2aSJbf327g
+instagram_url : wholesome.nomad.sj
+youtube_url : https://www.youtube.com/channel/UC4kb6gxOTKVBIKcFfZPiwoQ/
 permalink: /:path
 
 # Build settings
