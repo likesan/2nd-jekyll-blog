@@ -13,14 +13,14 @@ But my trial had focused on [Newest Instabot-py](https://github.com/instabot-py/
 3. instabot master.zip download ( you need to use the `example.py` from there)
 4. [pip install python-telegram-handler 하기 ](https://github.com/instabot-py/instabot.py/issues/2133)
 
-```
-1) install
-$ pip install python-telegram-handler
-2) install telegram on my phone
-3) create a channel and getting token by the bad ass @BotFather
-4) getting my new bot id by the bad ass @get_id
-5) put the channel id and token on the yml config
-```
+    ```
+    1) install
+    $ pip install python-telegram-handler
+    2) install telegram on my phone
+    3) create a channel and getting token by the bad ass @BotFather
+    4) getting my new bot id by the bad ass @get_id
+    5) put the channel id and token on the yml config
+    ```
 
 
 
