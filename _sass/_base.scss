@@ -282,9 +282,6 @@ h6 {
   }
 }
 
-p {
-  letter-spacing: 0.06rem;
-}
 
 
 /* Links
@@ -543,6 +540,8 @@ form {
 p {
   margin-bottom: 1.25rem;
   margin-top: 1.75em;
+  line-height: 22pt;
+  letter-spacing: .8px;
 }
 
 /* Utilities
