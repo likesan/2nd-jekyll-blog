@@ -1,12 +1,16 @@
 <div id="nav-wrapper">
   <nav id="nav" class="site-nav">
-    <ul class="page-link">
-      <li><a href="{{ site.baseurl }}/">HOME</a></li>
-      <li><a href="{{ "/archive" | prepend: site.baseurl }}">POST</a></li>
-      <li><a href="{{ "/reading-note" | prepend: site.baseurl }}">BOOK-REVIEW</a></li>
-      <li><a target="_blank" href="{{site.instagram_url}}">INSTAGRAM</a></li>
-      <li><a target="_blank" href="{{site.youtube_url}}">YOUTUBE</a></li>
-
+    <ul id="nav-ul" class="page-link">
+      <li class="tooltip smooth"><a href="{{ site.baseurl }}/"><i class="fas fa-home"></i>
+          <span class="tooltiptext">Home</span></a></li>
+      <li class="tooltip smooth"><a href="{{ "/archive" | prepend: site.baseurl }}"><i class="fas fa-quote-right"></i>
+          <span class="tooltiptext">Article</span></a></li>
+      <li class="tooltip smooth"><a href="{{ "/reading-note" | prepend: site.baseurl }}"><i class="fas fa-book"></i>
+          <span class="tooltiptext">Book Review</span></a></li>
+      <li class="tooltip smooth"><a target="_blank" href="{{site.instagram_url}}"><i class="fas fa-hashtag"></i>
+          <span class="tooltiptext">Instagram</span></a></li>
+      <li class="tooltip smooth"><a target="_blank" href="{{site.youtube_url}}"><i class="fab fa-youtube"></i>
+          <span class="tooltiptext">Youtube Channel</span></a></li>
     </ul>
   </nav>
 
@@ -14,8 +18,7 @@
 </div>
 
 
-<script>
-  
+<script type="text/javascript">
   var toggle = function () {
     var navDisplay = document.getElementById('nav').style.display;
 
@@ -29,5 +32,3 @@
     }
   }
 </script>
-
-
