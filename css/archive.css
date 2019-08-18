@@ -1,0 +1,42 @@
+.post-frame {
+    max-width: 100%;
+}
+
+
+
+@media (max-width:768px) {
+    .post-thumbnail {
+        margin: 0 auto;
+        overflow: hidden;
+        display: block;
+
+    }
+}
+
+@media (min-width:769px) {
+
+    .post-frame,
+    .post-thumbnail {
+        display: inline-block;
+    }
+
+    .post-thumbnail {
+        max-width: 10vw;
+        max-width: 30%;
+        margin: 1.1612rem 0 1.1612rem 1.1612rem;
+        overflow: hidden;
+    }
+    
+
+    .post-a {
+        margin-bottom: 1.1612em;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+.post-title {
+    font-family: Nanum Myeongjo, sans-serif;
+}

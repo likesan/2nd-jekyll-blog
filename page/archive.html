@@ -7,8 +7,15 @@ permalink : /archive
   <section class="archive_list">
     {% for post in site.posts %}
 
-    <div class="post_title">
-      <a class="post-title" href="{{ post.url | prepend: site.baseurl | uniq }}">{{ post.title | uniq }}</a>
+    <div>
+      <a class="post-a" href="{{ post.url | prepend: site.baseurl | uniq }}">
+        <div class="post-frame">
+          <h2 class="post-title">{{ post.title | uniq }}</h2>
+          <p>{{post.date | date: "%-d %B %Y"}}</p>
+          <p>{{ post.content | markdownify | strip_html  | truncatewords: 15 }}</p>
+        </div>
+        <img class="post-thumbnail" src='{{post.thumbnail}}'>
+      </a>
     </div>
 
     {% endfor %}
@@ -17,3 +24,22 @@ permalink : /archive
   </section>
 
 </div>
+
+<script type="text/javascript">
+  // thumbnail removed if itself's post doesn't have a thumbnail
+  
+  var postThumbnail = document.getElementsByClassName('post-thumbnail')
+  console.log(postThumbnail)
+  console.log(postThumbnail.length)
+  for (i = 0; i < postThumbnail.length; i++) {
+    console.log(i)
+    console.log(postThumbnail[i].src)
+    console.log(window.location.href)
+    if (postThumbnail[i].src == window.location.href) {
+      postThumbnail[i].outerHTML = '';
+
+      console.log(postThumbnail[i].src)
+      postThumbnail[i]
+    }
+}
+</script>

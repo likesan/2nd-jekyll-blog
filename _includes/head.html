@@ -32,6 +32,10 @@
   
   {% endif %}
 
+  {% if page.permalink contains 'archive' %}
+  <link rel="stylesheet" href="{{ "/css/archive.css" | prepend: site.baseurl }}">
+  {% endif %}
+
   {% if page.permalink contains 'portfolio'%}
   <link rel="stylesheet" href="{{ "/css/portfolio.css" | prepend: site.baseurl }}">
   {% endif%}
