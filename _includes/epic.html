@@ -173,10 +173,10 @@
             console.log(3)
         } else if( c ==-400 ){
             nextButton.style.display ='none';
-            console.log(9)
+            console.log(4)
         } else if( c < -400 ) {
             nextButton.st.display = 'none';
-            console.log(10)
+            console.log(5)
         }
         
         //  else {
@@ -187,7 +187,7 @@
         // }
 
         c = c - 100
-        epicWrapper.style.position = "relative";
+        // epicWrapper.style.position = "relative";
 
         epicWrapper.style.left = c + '%';
         console.log('Moving to next posts')
@@ -197,38 +197,39 @@
 
 // going back
     function screenMovingXminus() {
-        if (c <= -100 && c > -500) {
+        if (c < -100 && c > -500) {
             
-            console.log(5)
+            console.log(6)
             //   when the viewer's screen is most left side ' 
             // previousButton.style.display = 'none';
             // previousButton.style.visibility = 'invisible';
-            nextButton.style.visible = 'visible';
             nextButton.style.display = 'inline-block';
+            nextButton.style.visible = 'visible';
             console.log('previous button hidden')
-        } else if (c < 0 && c >-500) {
+        } else if (c < 0 && c >= -100) {
             
-            console.log(6)
+            console.log(7)
             // when viewer pressed nextButton
             nextButton.style.visible = 'visible';
             nextButton.style.display = 'inline-block';
-            previousButton.style.visibility = 'visible';
-            previousButton.style.display = 'inline-block';
+            previousButton.style.visibility = 'invisible';
+            previousButton.style.display = 'none';
             console.log('previous button appear')
         } else if( c <= -500){
             
-            console.log(7)
+            console.log(8)
             previousButton.style.display = 'inline-block';
             nextButton.style.display = 'inline-block';
             nextButton.style.visibility = 'visible';
-        } else if(c == 0) {
-            // previousButton.style.display = 'inline-block';
-            // previousButton.style.visibility = 'visible';
-            console.log(8)
-        } else {
-            // nextButton.style.visible = 'visible';
-            // nextButton.style.display = 'inline-block';
+        } else if(c == -100) {
+            previousButton.style.display = 'none';
+            previousButton.style.visibility = 'invisible';
             console.log(9)
+        } else {
+            previousButton.style.display = 'none';
+            nextButton.style.visible = 'visible';
+            nextButton.style.display = 'inline-block';
+            console.log(10)
         }
         c = c + 100
         epicWrapper.style.left = c + '%';
