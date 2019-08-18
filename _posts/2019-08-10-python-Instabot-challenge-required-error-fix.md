@@ -2,6 +2,7 @@
 layout: post
 comments : true
 category : [Instabot, Python, Coding, Marketing, Instagram]
+thumbnail :  https://images.pexels.com/photos/1020325/pexels-photo-1020325.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
 ---
 # Instabot.py Challenge requirement error fixing
 Found the solution from Issue board in the repository.

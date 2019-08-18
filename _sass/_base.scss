@@ -21,6 +21,11 @@
   display: inline-block;
 }
 
+body{
+  overflow: hidden;
+  overflow-y:scroll;
+}
+
 
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;

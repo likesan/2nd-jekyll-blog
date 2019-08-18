@@ -7,9 +7,9 @@
 }
 
 #typed-wrapper {
-    text-align: center;
+    text-align: left;
     display: table-cell;
     vertical-align: middle;
     width: 90vw;
-    height: 90vh;
+    height: 20vh;
 }

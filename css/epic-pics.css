@@ -1,0 +1,154 @@
+#epic-wrapper {
+    width: 1000%;
+    margin: 0 auto;
+}
+
+#epic-wrapper ul {
+    list-style: none;
+    /* position: absolute; */
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.post-info {
+    color: white;
+    display: block;
+    margin: 0;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.post-date {
+    color: white;
+}
+
+.epic-pics-list {
+    width: 40vw;
+    float: left;
+}
+
+.epic-pics {
+    display: inline-block;
+    height: 30vw;
+    width: 60vw;
+    transition: all 1s ease-in-out;
+}
+
+/* 1st set */
+.item-pic-type-1 {
+    width: 100%;
+    height: 320px;
+}
+
+.item-pic-type-2,
+.item-pic-type-3,
+.item-pic-type-4 {
+    width: 33.3%;
+    height: 200px;
+}
+
+/* 2nd set */
+.item-pic-type-5,
+.item-pic-type-6,
+.item-pic-type-7,
+.item-pic-type-8 {
+    width: 50%;
+    height: 260px;
+}
+
+/* 3rd set */
+.item-pic-type-9 {
+    width: 50%;
+    height: 520px;
+}
+
+.item-pic-type-10,
+.item-pic-type-11 {
+    width: 50%;
+    height: 260px;
+}
+
+/* 4th set */
+.item-pic-type-12,
+.item-pic-type-13 {
+    width: 50%;
+    height: 520px;
+}
+
+/* 5th set */
+.item-pic-type-14,
+.item-pic-type-15,
+.item-pic-type-16,
+.item-pic-type-17 {
+    width: 50%;
+    height: 260px;
+}
+
+/* 6th set */
+
+.item-pic-type-18 {
+    width: 100%;
+    height: 320px;
+
+}
+
+.item-pic-type-19,
+.item-pic-type-20,
+.item-pic-type-21 {
+    width: 33.3%;
+    height: 200px;
+}
+
+
+.float {
+    float: left;
+}
+
+.epic-pics:hover {
+    opacity: .8;
+    transition: all 1s ease-in-out;
+}
+
+
+#next-posts {
+    right: 20%;
+    /* background-color: white; */
+}
+
+#previous-posts {
+    /* visibility: hidden; */
+    left: 20%;
+    /* background-color: white; */
+}
+
+#previous-posts,
+#next-posts {
+    position: absolute;
+    top: 35%;
+    color: white;
+    font-size: 15rem;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+    opacity: .8;
+}
+
+#previous-posts:hover,
+#next-posts:hover {
+    font-size: 16rem;
+    transition: all 1s ease-in-out;
+}
+
+.soft,
+.soft:active {
+    transition: all 1s ease-in-out;
+}
+
+#mask {
+    filter: brightness(50%);
+}

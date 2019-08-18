@@ -8,12 +8,17 @@
     {% include nav.html %}
 
     <div class="nine columns" style="z-index:100;">
+     
+     
       <div class="wrapper">
+     
         {{ content }}
       </div>
     </div>
   </div>
   </div>
+
+
 
   {% if page.layout == post or page %}
     {% include related_post.html %}

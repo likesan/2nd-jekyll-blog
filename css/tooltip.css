@@ -12,12 +12,13 @@
     left: 50%;
     margin-left: -60px;
     /* Use half of the width (120/2 = 60), to center the tooltip */
+    transition: all .4s ease-in-out;
 }
 
 
 /* Tooltip text */
 .tooltip .tooltiptext {
-    visibility: hidden;
+    opacity : 0;
     width: 120px;
     background-color: white;
     border:0.5px black solid;
@@ -32,5 +33,6 @@
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
-    visibility: visible;
+    transition: all .4s ease-in-out;
+    opacity: 1;
 }
