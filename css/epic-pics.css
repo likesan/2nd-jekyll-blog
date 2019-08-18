@@ -31,27 +31,6 @@
     filter: grayscale(10%)
 }
 
-
-.mask {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #333;
-    opacity: .4;
-    filter: alpha(opacity=40);
-    -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
-}
-
-
-.mask:hover{
-    opacity:0;
-    -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
-}
-
 /* on Mobile */
 @media (max-width:1023px){
     #next-posts,#previous-posts{
@@ -188,6 +167,27 @@
         transition: all 1s ease-in-out;
     }
     
+
+
+    .mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #333;
+        opacity: .4;
+        filter: alpha(opacity=40);
+        -webkit-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out;
+    }
     
+    
+    .mask:hover{
+        opacity:0;
+        -webkit-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out;
+    }
+        
     
 }
