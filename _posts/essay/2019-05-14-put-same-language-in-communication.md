@@ -1,3 +1,12 @@
+---
+layout : post
+comments : true
+category : [Communication, Language,Essay]
+thumbnail : 
+---
+
+* TOC
+{:toc}
 
 # Talking in same language is the matter...
 The youtube is a major platform. Everybody know about it, It means the platform and visualized method is best for everybody.
