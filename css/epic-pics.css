@@ -1,5 +1,6 @@
 #epic-wrapper {
     position: relative;
+    left : 0;
     width: 1000%;
     margin: 0 auto;
 }
