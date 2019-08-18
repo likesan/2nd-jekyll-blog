@@ -1,6 +1,4 @@
 /* Both */
-
-
 #epic-wrapper ul {
     list-style: none;
     margin: 0 auto;
@@ -33,7 +31,7 @@
 
 /* on Mobile */
 @media (max-width:1023px){
-    #next-posts,#previous-posts{
+    #next-posts,#previous-posts,.mask{
         display: none;
     }
 }
