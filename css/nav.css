@@ -27,7 +27,14 @@
 
 /* laptop, tablet */
 @media (min-width:769px) {
-
+    .fas, .fab{
+        opacity:.4;
+        transition: all .3s easy-in-out;
+    }
+    .fas:hover, .fab:hover{
+        opacity:1;
+        transition: all .3s easy-in-out;
+    }
     .blog-owner-pic {
         margin: 1vw auto;
 
