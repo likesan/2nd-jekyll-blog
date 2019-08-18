@@ -117,19 +117,16 @@
 
 #next-posts {
     right: 20%;
-    /* background-color: white; */
 }
 
 #previous-posts {
-    /* visibility: hidden; */
     left: 20%;
-    /* background-color: white; */
 }
 
 #previous-posts,
 #next-posts {
     position: absolute;
-    top: 35%;
+    top: 37%;
     color: white;
     font-size: 15rem;
     display: inline-block;
@@ -141,8 +138,8 @@
 
 #previous-posts:hover,
 #next-posts:hover {
-    font-size: 16rem;
-    transition: all 1s ease-in-out;
+    transition: all .4s ease-in-out;
+    opacity:1;
 }
 
 .soft,
@@ -151,5 +148,7 @@
 }
 
 #mask {
-    filter: brightness(50%);
+background-color:black;
+opacity:.4; 
+transition: opacity .3s ease-in-out;
 }
