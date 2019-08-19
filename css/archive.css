@@ -1,5 +1,5 @@
 .post-frame {
-    width:60%;
+    width: 60%;
 }
 
 
@@ -20,13 +20,19 @@
         display: inline-block;
     }
 
+    .thumbnail-img-frame {
+        overflow: hidden;
+        height: 100%;
+        width: auto;
+    }
+
     .post-thumbnail {
         max-width: 15vw;
         max-height: 40%;
         margin: 1.1612rem 0 1.1612rem 1.1612rem;
         overflow: hidden;
     }
-    
+
 
     .post-a {
         margin-bottom: 1.1612em;

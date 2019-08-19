@@ -1,0 +1,12 @@
+<div class="categories">
+{% for post in site.posts %}
+
+<a class="category">
+
+    {{ post.category | uniq | join : ", "}}
+
+</a>
+
+{% endfor %}
+
+</div>

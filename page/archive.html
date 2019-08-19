@@ -14,7 +14,9 @@ permalink : /archive
           <p>{{post.date | date: "%-d %B %Y"}}</p>
           <p>{{ post.content | markdownify | strip_html  | truncatewords: 15 }}</p>
         </div>
+        <div class="thumbnail-img-frame">
         <img class="post-thumbnail" src='{{post.thumbnail}}'>
+      </div>
       </a>
     </div>
 
@@ -27,7 +29,7 @@ permalink : /archive
 
 <script type="text/javascript">
   // thumbnail removed if itself's post doesn't have a thumbnail
-  
+  var thumbnailFrame = document.getElementsByClassName('thumbnail-img-frame')
   var postThumbnail = document.getElementsByClassName('post-thumbnail')
   console.log(postThumbnail)
   console.log(postThumbnail.length)
@@ -37,6 +39,7 @@ permalink : /archive
     console.log(window.location.href)
     if (postThumbnail[i].src == window.location.href) {
       postThumbnail[i].outerHTML = '';
+      thumbnailFrame[i].outerHTML = '';
 
       console.log(postThumbnail[i].src)
       postThumbnail[i]
