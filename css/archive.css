@@ -1,5 +1,5 @@
 .post-frame {
-    max-width: 100%;
+    width:60%;
 }
 
 
@@ -21,8 +21,8 @@
     }
 
     .post-thumbnail {
-        max-width: 10vw;
-        max-width: 30%;
+        max-width: 15vw;
+        max-height: 40%;
         margin: 1.1612rem 0 1.1612rem 1.1612rem;
         overflow: hidden;
     }

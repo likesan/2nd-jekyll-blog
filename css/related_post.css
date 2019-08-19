@@ -24,11 +24,6 @@
 
 }
 
-@media (max-width:768px){
-   .grid-wrapper{ 
-       /* width : 95vw; */
-   }
-}
 @media (min-width:769px){
     .grid-wrapper{
         width:50vw;
