@@ -29,6 +29,7 @@ permalink : /archive
 
 <script type="text/javascript">
   // thumbnail removed if itself's post doesn't have a thumbnail
+  var postFrame = document.getElementsByClassName('.post-frame')
   var thumbnailFrame = document.getElementsByClassName('thumbnail-img-frame')
   var postThumbnail = document.getElementsByClassName('post-thumbnail')
   console.log(postThumbnail)
@@ -40,9 +41,9 @@ permalink : /archive
     if (postThumbnail[i].src == window.location.href) {
       postThumbnail[i].outerHTML = '';
       thumbnailFrame[i].outerHTML = '';
+      postFrame[i].style.width = 100 + '%';
 
       console.log(postThumbnail[i].src)
-      postThumbnail[i]
     }
 }
 </script>
