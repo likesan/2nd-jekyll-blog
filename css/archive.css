@@ -1,6 +1,3 @@
-.post-frame {
-    width: 60%;
-}
 
 
 
@@ -10,6 +7,9 @@
         overflow: hidden;
         display: block;
 
+    }
+    .post-frame {
+        width: 100%;
     }
 }
 
@@ -21,6 +21,10 @@
     .post-thumbnail {
         display: inline-block;
     }
+    .post-frame {
+        width: 60%;
+    }
+    
 
     .thumbnail-img-frame {
         overflow: hidden;

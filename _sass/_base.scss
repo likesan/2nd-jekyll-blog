@@ -207,8 +207,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   /* font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif; */
-  /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-family: "Noto Sans Light","Malgun Gothic",sans-serif;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -300,9 +299,6 @@ a {
   transition: color .4s;
 }
 
-a:hover {
-  // color: #b1b1b1;
-}
 
 p a{
   text-decoration : dotted;
