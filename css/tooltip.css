@@ -1,48 +1,67 @@
 /* on Mobile, Invisible */
 
-@media (max-width:768px){
-    .tooltip{
-        display:none;
+@media (max-width:768px) {
+    .tooltip {
+        display: none;
+    }
+
+    /* on Monitor, Visible */
 }
 
-/* on Monitor, Visible */
-}
-@media(min-width:769px){
+@media(min-width:769px) {
     .tooltip {
         position: relative;
         display: block;
     }
-    
-    
+
+
     .tooltip .tooltiptext {
         width: 120px;
-        top: 100%;
+        top: 150%;
         left: 50%;
         margin-left: -60px;
         /* Use half of the width (120/2 = 60), to center the tooltip */
         transition: all .4s ease-in-out;
+    
     }
-    
-    
+
+
+
     /* Tooltip text */
     .tooltip .tooltiptext {
-        opacity : 0;
+        opacity: 0;
         width: 120px;
-        background-color: none;
-        /* border:0.5px black solid; */
-        color: black;
+        background-color: black;
+        color: white;
         text-align: center;
         padding: 5px 0;
-        border-radius: 6px;
         /* Position the tooltip text - see examples below! */
         position: absolute;
         z-index: 1;
+        box-shadow: 0px 9px 18px -15px;
+
     }
-    
+
+    .tooltiptext:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 53%;
+        width: 0;
+        height: 0;
+        border: 0.625em solid transparent;
+        border-bottom-color: black;
+        border-top: 0;
+        border-left: 0;
+        margin-left: -0.312em;
+        margin-top: -0.625em;
+    }
+
     /* Show the tooltip text when you mouse over the tooltip container */
     .tooltip:hover .tooltiptext {
         transition: all .4s ease-in-out;
         opacity: 1;
+        
     }
-    
+
 }

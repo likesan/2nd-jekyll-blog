@@ -51,6 +51,13 @@
     .page-link li {
         display: inline-block;
     }
+    #nav{
+        box-shadow: 0px 9px 18px -21px;
+        width: 100%;
+        padding: 1.1612rem;
+    }
+    
+    
 
     #nav-trigger {
         display: none;
