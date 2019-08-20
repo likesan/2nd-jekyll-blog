@@ -6,7 +6,8 @@
     {% for post in site.categories[pageCategory] limit:6 %}
     {% unless post.title == page.title %}
     <a class="related-post-panel" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-      <div class="related-posts-img" style="background-image: url('{{post.thumbnail}}')"></div>
+      <!-- <div class="related-posts-img" style="background-image: url('{{post.thumbnail}}')"></div> -->
+      <img class="related-posts-img" src="{{post.thumbnail}}">
       <h3 class="related_post_title">
         {{ post.title }}
 
@@ -18,5 +19,25 @@
     {% endfor %}
   </div>
 </div>
+
 {% endunless %}
 {% endunless %}
+
+
+
+<script type="text/javascript">
+  // thumbnail removed if itself's post doesn't have a thumbnail
+  var relPostThumbnail = document.getElementsByClassName('related-posts-img')
+  console.log(relPostThumbnail)
+  for (i = 0; i < relPostThumbnail.length; i++) {
+    if (relPostThumbnail[i].src == undefined) {
+      console.log(relPostThumbnail[i].src)
+
+      console.log(true)
+      relPostThumbnail[i].outerHTML = '';
+    } else {
+      console.log(relPostThumbnail[i].src)
+      console.log(false)
+    }
+  }
+</script>

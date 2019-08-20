@@ -1,6 +1,7 @@
 ---
 layout : post
 category : [essay, travel, comparison]
+comments : true
 ---
 
 Hawaii looks so expensive, more than living in Bali.
