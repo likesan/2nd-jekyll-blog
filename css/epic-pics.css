@@ -21,9 +21,7 @@
 .epic-pics {
     display: inline-block;
     box-sizing: border-box;
-    /* height: 30vw; */
     height:25vh;
-    /* width: 60vw; */
     width: 100%;
     filter: grayscale(10%)
 }

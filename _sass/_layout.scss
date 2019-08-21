@@ -188,7 +188,8 @@ time {
   color: #93a1a1;
 }
 
-.article-content>p {
+.article-content > *:not(a, h1,h2,h3,h4,h5,h6)
+{
   color: #3c3c3c;
 }
 
