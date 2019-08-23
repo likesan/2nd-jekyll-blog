@@ -188,18 +188,33 @@ time {
   color: #959595;
 }
 
-.article-content > *:not(a),
-.article-content > *:not(h1),
-.article-content > *:not(h2),
-.article-content > *:not(h3),
-.article-content > *:not(h4),
-.article-content > *:not(h5),
-.article-content > *:not(h6)
+.article-content >*:not(a),
+.article-content >*:not(h1),
+.article-content >*:not(h2),
+.article-content >*:not(h3),
+.article-content >*:not(h4),
+.article-content >*:not(h5),
+.article-content >*:not(h6)
 {
   color: #959595;
 }
 
-.article-content a {
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6{
+  color:black;
+}
+
+
+.archive_list div a{
+  color:black;
+
+}
+
+.article-content > a {
   color: blue;
   text-decoration: none;
   transition-duration: 0.5s;
