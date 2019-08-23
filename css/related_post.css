@@ -32,9 +32,11 @@
 }
 
 .related-posts-img {
-    height: 2.32vw;
+    width: 100%;
+    /* width: 11.6rem; */
+    height: auto;
     background-size: cover;
-}
+} 
 
 .related_post_title {
     text-align: center;
