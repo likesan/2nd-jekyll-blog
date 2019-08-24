@@ -15,7 +15,7 @@
 
 @media (min-width:769px) {
     .post-title{
-        margin:0;
+        margin:0;    
     }
     .post-frame,
     .post-thumbnail {
@@ -44,7 +44,15 @@
         margin-bottom: 1.1612em;
         display: flex;
         justify-content: space-between;
+    
+    /* partition on Desktop */
+/* 
+    background: white;
+    padding: 1.1612rem;
+    box-shadow: 0px 3px 18px -16px; */
     }
+
+    
 }
 
 
