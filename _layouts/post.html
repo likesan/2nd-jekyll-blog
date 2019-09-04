@@ -21,6 +21,7 @@ layout: default
     
     {{ page.content }}
 
+    {% include end-of-post-ad.html %}
   </div>
 
  <!-- comment section -->
@@ -28,9 +29,9 @@ layout: default
   
   <!-- comment section end -->
 
-<!-- google ad attaches after the first paragraph  -->
 <script>
-  document.getElementsByTagName('p')[1].appendChild(document.getElementsByClassName('adsbygoogle')[0])
+// google ad attaches after the first paragraph 
+document.getElementsByTagName('p')[1].appendChild(document.getElementsByClassName('adsbygoogle')[0])
     
 </script>
 
