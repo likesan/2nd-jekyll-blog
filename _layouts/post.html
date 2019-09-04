@@ -15,13 +15,23 @@ layout: default
   </header>
 
   <div class="article-content" itemprop="articleBody">
+    
+
+    {% include in-feed-ad.html %}
+    
     {{ page.content }}
+
   </div>
 
-
-  <!-- comment section -->
+ <!-- comment section -->
   {% include dq.html %}
   
   <!-- comment section end -->
+
+<!-- google ad attaches after the first paragraph  -->
+<script>
+  document.getElementsByTagName('p')[1].appendChild(document.getElementsByClassName('adsbygoogle')[0])
+    
+</script>
 
 </article>
