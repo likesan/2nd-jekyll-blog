@@ -16,10 +16,14 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% endif %}">
   <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{%endif%}">
   <meta property="og:url" content="{{ site.url }}">
+
+  <!-- social image sharing -->
+  <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
   <meta property="og:image:secure_url" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
   <meta property="og:image:width" content="640">
   <meta property="og:image:height" content="442">
-  
+  <!-- social image sharing set end -->
+ 
   <title>{% if page.title %}{{ page.title }}{%elsif post.title %}{{post.title}}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- CSS -->
