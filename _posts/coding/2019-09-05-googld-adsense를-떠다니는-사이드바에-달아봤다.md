@@ -17,16 +17,6 @@ thumbnail : https://images.unsplash.com/photo-1518183214770-9cffbec72538?ixlib=r
 
 Java, Javascript 등을 하다보면
 else if 문을 어떻게 넣어줘야하는지 헷갈리기 시작한다.
-Liquid는 아래의 형식으로 되어야했다.
-
-```
-{% if 조건 %}
-{% elsif 조건 %}
-
-조건에 맞을 시 실행될 코드
-
-{% endif %}
-``` 
 
 
 ## 내가 넣은 Sidebar 의 CSS 는 다음과 같다. 
