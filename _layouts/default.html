@@ -22,15 +22,12 @@
 
   {% if page.layout == post or page %}
     {% include related_post.html %}
-  
-  
- 
-
   {% endif %}
 
   <!-- aside either hidden or not -->
-  {% if page.permalink contains 'archive' or 'post'%}
+  {% if page.permalink contains 'archive' %}
   <aside class="floating-ad">{% include ad/adside-ad.html %}</aside>
+  <script>console.log('side ad appears')</script>
   {% endif %}
   <!-- aside hidden end -->
 
