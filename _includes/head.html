@@ -8,9 +8,6 @@
   {% elsif post.content %}{{ post.content | markdownify | strip_html  | truncatewords: 15 }}
   {% else %}{{ site.description }}
   {% endif %}">
-  <meta name="google-site-verification" content="KWKlmrDtMWVC1JUv-UGw_uyEusF9aGtzlKDcepw08HI" />
-  <meta name="naver-site-verification" content="3fe947b693663b49943a1272b8cb8ae6d2e5082f" />
-
 
   <meta property="fb:app_id" content="2378615019060878">
   <meta property="og:type" content="blog">
@@ -18,13 +15,15 @@
   <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{%endif%}">
   <meta property="og:url" content="{{ site.url }}">
 
-
   <!-- social image sharing -->
   <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
   <meta property="og:image:secure_url" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
   <meta property="og:image:width" content="640">
   <meta property="og:image:height" content="442">
   <!-- social image sharing set end -->
+
+  <meta name="google-site-verification" content="KWKlmrDtMWVC1JUv-UGw_uyEusF9aGtzlKDcepw08HI" />
+  <meta name="naver-site-verification" content="3fe947b693663b49943a1272b8cb8ae6d2e5082f" />
  
   <title>{% if page.title %}{{ page.title }}{%elsif post.title %}{{post.title}}{% else %}{{ site.title }}{% endif %}</title>
 
