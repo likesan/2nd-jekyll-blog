@@ -6,7 +6,6 @@
 @media(min-width:769px){
     .floating-ad {
         top: 3.42em;
-        right: 0;
         position: fixed;
         width: 20vw;
         height: 50vw;
