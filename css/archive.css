@@ -1,4 +1,7 @@
 
+details {
+    color: #959595
+}
 
 
 @media (max-width:768px) {
@@ -52,4 +55,6 @@
 
 .post-title {
     font-family: Nanum Myeongjo, sans-serif;
+}
+
 }
