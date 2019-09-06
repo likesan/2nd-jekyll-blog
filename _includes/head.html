@@ -17,7 +17,9 @@
   <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{%endif%}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="og:img:secure_url" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
-
+  <meta property="og:img:width" content="640">
+  <meta property="og:img:height" content="442">
+  
   <title>{% if page.title %}{{ page.title }}{%elsif post.title %}{{post.title}}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- CSS -->
