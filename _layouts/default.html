@@ -24,13 +24,15 @@
     {% include related_post.html %}
   
   
-    <aside class="floating-ad">{% include ad/adside-ad.html  %}</aside>
  
 
   {% endif %}
 
-  
-
+  <!-- aside either hidden or not -->
+  {% if page.permalink contains 'archive' or 'post'%}
+  <aside class="floating-ad">{% include ad/adside-ad.html  %}</aside>
+  {% endif %}
+<!-- aside hidden end -->
 
 </body>
 

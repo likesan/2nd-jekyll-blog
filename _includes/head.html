@@ -17,7 +17,7 @@
   <meta property="og:description" content="{% if site.description %}{{site.description}}{%endif%}">
   <meta property="og:url" content="{{site.url}}">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{%elsif post.title %}{{post.title}}{% else %}{{ site.title }}{% endif %}</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
