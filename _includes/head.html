@@ -1,21 +1,24 @@
 <head>
- 
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description"
-  content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="
+  {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
+  {% elsif post.content %}{{ post.content | markdownify | strip_html  | truncatewords: 15 }}
+  {% else %}{{ site.description }}
+  {% endif %}">
   <meta name="google-site-verification" content="KWKlmrDtMWVC1JUv-UGw_uyEusF9aGtzlKDcepw08HI" />
-  <meta name="naver-site-verification" content="3fe947b693663b49943a1272b8cb8ae6d2e5082f"/>
+  <meta name="naver-site-verification" content="3fe947b693663b49943a1272b8cb8ae6d2e5082f" />
 
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="{{site.title}} | {{site.description}}">
-  <meta property="og:description" content="Blog : Digital Nomad, Marketing, Vegan, Cat daddy">
+  <meta property="og:title" content="{{site.title}}">
+  <meta property="og:description" content="{% if site.description %}{{site.description}}{%endif%}">
   <meta property="og:url" content="{{site.url}}">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
- 
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/nav.css" | prepend: site.baseurl }}">
@@ -23,13 +26,13 @@
   <link rel="stylesheet" href="{{ "/css/tooltip.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/transition.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/font.css" | prepend: site.baseurl }}">
-  
+
   {% if site.baseurl %}
   <link rel="stylesheet" href="{{ "/css/index.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/typed.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/landing-page.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/epic-pics.css" | prepend: site.baseurl }}">
-  
+
   {% endif %}
 
   {% if page.permalink contains 'archive' %}
@@ -48,32 +51,37 @@
   <link rel="stylesheet" href="{{ "/css/dq.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/related_post.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/ad.css" | prepend: site.baseurl }}">
+
+  <!-- mermaid -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
   <script>
-      var config = {
-          startOnLoad:true,
-          theme: 'forest',
-          flowchart:{
-                  useMaxWidth:false,
-                  htmlLabels:true
-              }
-      };
-      mermaid.initialize(config);
-      window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    var config = {
+      startOnLoad: true,
+      theme: 'forest',
+      flowchart: {
+        useMaxWidth: false,
+        htmlLabels: true
+      }
+    };
+    mermaid.initialize(config);
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
   </script>
-      
+  <!-- mermaid end -->
   {% endif %}
-  
+
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
     href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <!-- etc -->
+  <!-- typed.js -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+  <!-- typed.js end -->
+  <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+  <!-- fontawesome end -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116676814-1"></script>
   <script>

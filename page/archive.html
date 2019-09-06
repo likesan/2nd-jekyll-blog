@@ -9,14 +9,14 @@ permalink : /archive
 
     <div>
       <a class="post-a" href="{{ post.url | prepend: site.baseurl | uniq }}">
-        <div class="post-frame">
+        <section class="post-frame">
           <h2 class="post-title">{{ post.title | uniq }}</h2>
-          <p>{{post.date | date: "%-d %B %Y"}}</p>
-          <p>{{ post.content | markdownify | strip_html  | truncatewords: 15 }}</p>
-        </div>
-        <div class="thumbnail-img-frame">
+          <time>{{post.date | date: "%-d %B %Y"}}</time>
+          <details open>{{ post.content | markdownify | strip_html  | truncatewords: 15 }}</details>
+        </section>
+        <figure class="thumbnail-img-frame">
         <img class="post-thumbnail" src='{{post.thumbnail}}'>
-      </div>
+        </figure>
       </a>
     </div>
 

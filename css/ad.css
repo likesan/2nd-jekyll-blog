@@ -1,0 +1,16 @@
+@media(max-width:425px) {
+    .floating-ad {
+     display: none;
+    }
+}
+@media(min-width:426px){
+    .floating-ad {
+        top: 3.42em;
+        right: 0;
+        position: fixed;
+        width: 20vw;
+        height: 50vw;
+        right: 5;
+        display: inline-block;
+    }
+}

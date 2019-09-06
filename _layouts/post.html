@@ -14,27 +14,26 @@ layout: default
 
   </header>
 
-  <div class="article-content" itemprop="articleBody">
-    
-
+  <main class="article-content" itemprop="articleBody">
     {% include ad/ad-after-first-para.html %}
-    
+
     {{ page.content }}
 
     {% include ad/end-of-post-ad.html %}
-  </div>
+  </main>
 
- <!-- comment section -->
-  {% include dq.html %}
-  
-  <!-- comment section end -->
+  <div>
+    <!-- comment section -->
+    {% include dq.html %}
+    <!-- comment section end -->
+
+  </div>
 
 
   <script>
     // google ad attaches after the first paragraph 
     document.getElementsByTagName('p')[1].appendChild(document.getElementsByClassName('adsbygoogle')[0])
-        
-</script>
-    
+  </script>
+
 
 </article>
