@@ -17,12 +17,14 @@
   <meta property="og:url" content="{{ site.url }}">
   <meta property="article:author" content="SJ">
   <meta property="article:publisher" content="SJ">
-  
+
   <!-- social image sharing -->
+  {%if page.thumbnail %}
   <meta property="og:image" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
   <meta property="og:image:secure_url" content="{% if page.thumbnail %}{{ page.thumbnail }}{% endif %}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="600">
+  {% endif %}
   <!-- social image sharing set end -->
 
   <meta name="google-site-verification" content="KWKlmrDtMWVC1JUv-UGw_uyEusF9aGtzlKDcepw08HI" />
