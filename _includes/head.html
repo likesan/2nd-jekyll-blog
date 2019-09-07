@@ -2,27 +2,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta prefix="og: http://ogp.me/ns#" name="description" content="
-  {% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}
-  {% else %}{{ site.description }}
-  {% endif %}">
-
+  <meta prefix="og: http://ogp.me/ns#" name="description" content="{{ page.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="fb:app_id" content="2378615019060878">
 
 {% if page.is_post %}
   {% assign type="article" %}
-  {% assign pageTitle = page.title %}
-  {% assign pageThumbnail = page.thumbnail %}
-  {{ pageTitle }}
-  {{ pageThumbnail }}
 {% else %}
   {% assign type="website" %}
 {% endif %}
 
   <meta property="og:type" content="{{ type }}">
   <meta property="og:site_name" content="Freedom, Goodness">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}">
-  <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{% else %}{{site.description}}{%endif%}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="article:author" content="SJ">
   <meta property="article:publisher" content="SJ">
