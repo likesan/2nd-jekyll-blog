@@ -1,240 +1,240 @@
 <div class="soft" id="epic-wrapper">
-    <ul>
-        <li class="epic-pics-list">
-
-            {% for post in site.posts limit:4 %}
-            <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-                <div class="epic-pics float item-pic-type-{% cycle 1,2,3,4 %}"
-                    style="background:url('{{post.thumbnail}}');background-size:cover;">
-
-                    <div class="mask"></div>
-                    <div class="post-info">
-                        <h2>{{ post.title }}</h2>
-                        <div class="post-date">
-                            {{ post.date | date: "%Y년" }}
-                            {% assign m = post.date | date: "%-m월" %}
-                            {{ m }}
-                            {{ post.date | date: "%-d일 " }}
+        <ul>
+            <li class="epic-pics-list">
+    
+                {% for post in site.posts limit:4 %}
+                <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+                    <div class="epic-pics float item-pic-type-{% cycle 1,2,3,4 %}"
+                        style="background:url('{{post.thumbnail}}');background-size:cover;">
+    
+                        <div class="mask"></div>
+                        <div class="post-info">
+                            <h2>{{ post.title }}</h2>
+                            <div class="post-date">
+                                {{ post.date | date: "%Y년" }}
+                                {% assign m = post.date | date: "%-m월" %}
+                                {{ m }}
+                                {{ post.date | date: "%-d일 " }}
+                            </div>
                         </div>
                     </div>
-                </div>
-
-            </a>
-
-            {% endfor %}
-        </li>
-
-        <li class="epic-pics-list">
-            {% for post in site.posts offset:4 limit:4 %}
-            <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-
-                <div class="epic-pics float item-pic-type-{% cycle 5,6,7,8 %}"
-                    style="background:url('{{post.thumbnail}}');background-size:cover;">
-
-                    <div class="mask"></div>
-                    <div class="post-info">
-                        <h2>
-                            {{ post.title }}
-                        </h2>
-                        <div class="post-date">
-                            {{ post.date | date: "%Y년" }}
-                            {% assign m = post.date | date: "%-m월" %}
-                            {{ m }}
-                            {{ post.date | date: "%-d일 " }}
+    
+                </a>
+    
+                {% endfor %}
+            </li>
+    
+            <li class="epic-pics-list">
+                {% for post in site.posts offset:4 limit:4 %}
+                <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+    
+                    <div class="epic-pics float item-pic-type-{% cycle 5,6,7,8 %}"
+                        style="background:url('{{post.thumbnail}}');background-size:cover;">
+    
+                        <div class="mask"></div>
+                        <div class="post-info">
+                            <h2>
+                                {{ post.title }}
+                            </h2>
+                            <div class="post-date">
+                                {{ post.date | date: "%Y년" }}
+                                {% assign m = post.date | date: "%-m월" %}
+                                {{ m }}
+                                {{ post.date | date: "%-d일 " }}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-
-            {% endfor %}
-        </li>
-
-        <li class="epic-pics-list">
-            {% for post in site.posts offset:8 limit:3 %}
-            <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-
-                <div class="epic-pics float item-pic-type-{% cycle 9,10,11 %}"
-                    style="background:url('{{post.thumbnail}}');background-size:cover;">
-                    <div class="mask"></div>
-                    <div class="post-info">
-                        <h2>
-                            {{ post.title }}
-                        </h2>
-                        <div class="post-date">
-                            {{ post.date | date: "%Y년" }}
-                            {% assign m = post.date | date: "%-m월" %}
-                            {{ m }}
-                            {{ post.date | date: "%-d일 " }}
+                </a>
+    
+                {% endfor %}
+            </li>
+    
+            <li class="epic-pics-list">
+                {% for post in site.posts offset:8 limit:3 %}
+                <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+    
+                    <div class="epic-pics float item-pic-type-{% cycle 9,10,11 %}"
+                        style="background:url('{{post.thumbnail}}');background-size:cover;">
+                        <div class="mask"></div>
+                        <div class="post-info">
+                            <h2>
+                                {{ post.title }}
+                            </h2>
+                            <div class="post-date">
+                                {{ post.date | date: "%Y년" }}
+                                {% assign m = post.date | date: "%-m월" %}
+                                {{ m }}
+                                {{ post.date | date: "%-d일 " }}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-
-            {% endfor %}
-        </li>
-
-        <li class="epic-pics-list">
-            {% for post in site.posts offset:11 limit:2 %}
-            <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-
-                <div class="epic-pics float item-pic-type-{% cycle 12,13 %}"
-                    style="background:url('{{post.thumbnail}}');background-size:cover;">
-                    <div class="mask"></div>
-                    <div class="post-info">
-                        <h2>
-                            {{ post.title }}
-                        </h2>
-                        <div class="post-date">
-                            {{ post.date | date: "%Y년" }}
-                            {% assign m = post.date | date: "%-m월" %}
-                            {{ m }}
-                            {{ post.date | date: "%-d일 " }}
+                </a>
+    
+                {% endfor %}
+            </li>
+    
+            <li class="epic-pics-list">
+                {% for post in site.posts offset:11 limit:2 %}
+                <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+    
+                    <div class="epic-pics float item-pic-type-{% cycle 12,13 %}"
+                        style="background:url('{{post.thumbnail}}');background-size:cover;">
+                        <div class="mask"></div>
+                        <div class="post-info">
+                            <h2>
+                                {{ post.title }}
+                            </h2>
+                            <div class="post-date">
+                                {{ post.date | date: "%Y년" }}
+                                {% assign m = post.date | date: "%-m월" %}
+                                {{ m }}
+                                {{ post.date | date: "%-d일 " }}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-
-            {% endfor %}
-        </li>
-
-        <li class="epic-pics-list">
-            {% for post in site.posts offset:13 limit:4 %}
-            <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-
-                <div class="epic-pics float item-pic-type-{% cycle 14,15,16,17 %}"
-                    style="background:url('{{post.thumbnail}}');background-size:cover;">
-                    <div class="mask"></div>
-                    <div class="post-info">
-                        <h2>
-                            {{ post.title }}
-                        </h2>
-                        <div class="post-date">
-                            {{ post.date | date: "%Y년" }}
-                            {% assign m = post.date | date: "%-m월" %}
-                            {{ m }}
-                            {{ post.date | date: "%-d일 " }}
+                </a>
+    
+                {% endfor %}
+            </li>
+    
+            <li class="epic-pics-list">
+                {% for post in site.posts offset:13 limit:4 %}
+                <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+    
+                    <div class="epic-pics float item-pic-type-{% cycle 14,15,16,17 %}"
+                        style="background:url('{{post.thumbnail}}');background-size:cover;">
+                        <div class="mask"></div>
+                        <div class="post-info">
+                            <h2>
+                                {{ post.title }}
+                            </h2>
+                            <div class="post-date">
+                                {{ post.date | date: "%Y년" }}
+                                {% assign m = post.date | date: "%-m월" %}
+                                {{ m }}
+                                {{ post.date | date: "%-d일 " }}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-
-            {% endfor %}
-        </li>
-
-        <li class="epic-pics-list">
-            {% for post in site.posts offset:17 limit:4 %}
-            <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-                <div class="epic-pics float item-pic-type-{% cycle 18,19,20,21 %}"
-                    style="background:url('{{post.thumbnail}}');background-size:cover;">
-
-                    <div class="mask"></div>
-                    <div class="post-info">
-                        <h2>
-                            {{ post.title }}
-                        </h2>
-                        <div class="post-date">
-                            {{ post.date | date: "%Y년" }}
-                            {% assign m = post.date | date: "%-m월" %}
-                            {{ m }}
-                            {{ post.date | date: "%-d일 " }}
+                </a>
+    
+                {% endfor %}
+            </li>
+    
+            <li class="epic-pics-list">
+                {% for post in site.posts offset:17 limit:4 %}
+                <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+                    <div class="epic-pics float item-pic-type-{% cycle 18,19,20,21 %}"
+                        style="background:url('{{post.thumbnail}}');background-size:cover;">
+    
+                        <div class="mask"></div>
+                        <div class="post-info">
+                            <h2>
+                                {{ post.title }}
+                            </h2>
+                            <div class="post-date">
+                                {{ post.date | date: "%Y년" }}
+                                {% assign m = post.date | date: "%-m월" %}
+                                {{ m }}
+                                {{ post.date | date: "%-d일 " }}
+                            </div>
                         </div>
                     </div>
-                </div>
-            </a>
-            {% endfor %}
-        </li>
-    </ul>
-</div>
-
-<!-- left or right button -->
-<a onclick="screenMovingXplus()" id="next-posts"><i class="fas fa-caret-right"></i></a>
-<a onclick="screenMovingXminus()" id="previous-posts"><i class="fas fa-caret-left"></i></a>
-
-<script>
-    var c = 0;
-    var epicWrapper = document.getElementById('epic-wrapper');
-    var previousButton = document.getElementById('previous-posts');
-    var nextButton = document.getElementById('next-posts');
-
-    // going forward
-    function screenMovingXplus() {
-
+                </a>
+                {% endfor %}
+            </li>
+        </ul>
+    </div>
+    
+    <!-- left or right button -->
+    <a onclick="screenMovingXplus()" id="next-posts"><i class="fas fa-caret-right"></i></a>
+    <a onclick="screenMovingXminus()" id="previous-posts"><i class="fas fa-caret-left"></i></a>
+    
+    <script>
+        var c = 0;
+        var epicWrapper = document.getElementById('epic-wrapper');
+        var previousButton = document.getElementById('previous-posts');
+        var nextButton = document.getElementById('next-posts');
+    
+        // going forward
+        function screenMovingXplus() {
+    
+            if (c >= 0) {
+                console.log(1)
+                // c = c - 100
+                nextButton.style.display = 'inline-block';
+                previousButton.style.display = 'inline-block';
+                previousButton.style.visibility = 'visible';
+            } else if (c <= -100 && c <= -500) {
+                console.log(2)
+                // when maximum lefted 
+                previousButton.style.display = 'inline-block';
+                nextButton.style.display = 'none';
+            } else if (c <= -400) {
+                nextButton.style.display = 'none';
+                nextButton.style.visibility = 'hidden';
+                console.log(3)
+            } else if (c == -400) {
+                nextButton.style.display = 'none';
+                console.log(4)
+            } else if (c < -400) {
+                nextButton.st.display = 'none';
+                console.log(5)
+            }
+    
+            c = c - 100
+            epicWrapper.style.left = c + '%';
+            console.log('Moving to next posts')
+            console.log(c)
+            // return c
+        }
+    
+        // going back
+        function screenMovingXminus() {
+            if (c < -100 && c > -500) {
+    
+                console.log(6)
+                //   when the viewer's screen is most left side ' 
+                // previousButton.style.display = 'none';
+                // previousButton.style.visibility = 'invisible';
+                nextButton.style.display = 'inline-block';
+                nextButton.style.visible = 'visible';
+                console.log('previous button hidden')
+            } else if (c < 0 && c >= -100) {
+    
+                console.log(7)
+                // when viewer pressed nextButton
+                nextButton.style.visible = 'visible';
+                nextButton.style.display = 'inline-block';
+                previousButton.style.visibility = 'invisible';
+                previousButton.style.display = 'none';
+                console.log('previous button appear')
+            } else if (c <= -500) {
+    
+                console.log(8)
+                previousButton.style.display = 'inline-block';
+                nextButton.style.display = 'inline-block';
+                nextButton.style.visibility = 'visible';
+            } else if (c == -100) {
+                previousButton.style.display = 'none';
+                previousButton.style.visibility = 'invisible';
+                console.log(9)
+            } else {
+                previousButton.style.display = 'none';
+                nextButton.style.visible = 'visible';
+                nextButton.style.display = 'inline-block';
+                console.log(10)
+            }
+            c = c + 100
+            epicWrapper.style.left = c + '%';
+            console.log('Moving to previous posts' + epicWrapper.style.left)
+            console.log(c)
+    
+            // return c
+        }
         if (c >= 0) {
-            console.log(1)
-            // c = c - 100
-            nextButton.style.display = 'inline-block';
-            previousButton.style.display = 'inline-block';
-            previousButton.style.visibility = 'visible';
-        } else if (c <= -100 && c <= -500) {
-            console.log(2)
-            // when maximum lefted 
-            previousButton.style.display = 'inline-block';
-            nextButton.style.display = 'none';
-        } else if (c <= -400) {
-            nextButton.style.display = 'none';
-            nextButton.style.visibility = 'hidden';
-            console.log(3)
-        } else if (c == -400) {
-            nextButton.style.display = 'none';
-            console.log(4)
-        } else if (c < -400) {
-            nextButton.st.display = 'none';
-            console.log(5)
+            previousButton.style.display = "none";
+        } else if (c <= -600) {
+            nextButton.style.display = "none";
         }
-
-        c = c - 100
-        epicWrapper.style.left = c + '%';
-        console.log('Moving to next posts')
-        console.log(c)
-        // return c
-    }
-
-    // going back
-    function screenMovingXminus() {
-        if (c < -100 && c > -500) {
-
-            console.log(6)
-            //   when the viewer's screen is most left side ' 
-            // previousButton.style.display = 'none';
-            // previousButton.style.visibility = 'invisible';
-            nextButton.style.display = 'inline-block';
-            nextButton.style.visible = 'visible';
-            console.log('previous button hidden')
-        } else if (c < 0 && c >= -100) {
-
-            console.log(7)
-            // when viewer pressed nextButton
-            nextButton.style.visible = 'visible';
-            nextButton.style.display = 'inline-block';
-            previousButton.style.visibility = 'invisible';
-            previousButton.style.display = 'none';
-            console.log('previous button appear')
-        } else if (c <= -500) {
-
-            console.log(8)
-            previousButton.style.display = 'inline-block';
-            nextButton.style.display = 'inline-block';
-            nextButton.style.visibility = 'visible';
-        } else if (c == -100) {
-            previousButton.style.display = 'none';
-            previousButton.style.visibility = 'invisible';
-            console.log(9)
-        } else {
-            previousButton.style.display = 'none';
-            nextButton.style.visible = 'visible';
-            nextButton.style.display = 'inline-block';
-            console.log(10)
-        }
-        c = c + 100
-        epicWrapper.style.left = c + '%';
-        console.log('Moving to previous posts' + epicWrapper.style.left)
-        console.log(c)
-
-        // return c
-    }
-    if (c >= 0) {
-        previousButton.style.display = "none";
-    } else if (c <= -600) {
-        nextButton.style.display = "none";
-    }
-</script>
+    </script>
