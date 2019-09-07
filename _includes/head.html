@@ -10,7 +10,14 @@
   {% endif %}">
 
   <meta property="fb:app_id" content="2378615019060878">
-  <meta property="og:type" content="article">
+
+{% if page.is_post %}
+  {% assign type="article" %}
+{% else %}
+  {% assign type="website" %}
+{% endif %}
+
+  <meta property="og:type" content="{{ type }}">
   <meta property="og:site_name" content="Freedom, Goodness">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}">
   <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{% else %}{{site.description}}{%endif%}">
@@ -18,7 +25,8 @@
   <meta property="article:author" content="SJ">
   <meta property="article:publisher" content="SJ">
 
-  <!-- social image sharing -->
+
+<!-- social image sharing -->
   {% if page.thumbnail %}
   <meta property="og:image" content="{{ page.thumbnail }}">
   <meta property="og:image:secure_url" content="{{ page.thumbnail }}">

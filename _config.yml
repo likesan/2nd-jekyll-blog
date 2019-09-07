@@ -5,6 +5,14 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+defaults: 
+  -
+  scope:
+  path: ""
+  type: "posts"
+  values:
+  is_post: true
+
 # Site settings
 title: SJ
 description: 선한 영향력 + 자유, Pursuing Wholesome Nomad life journey # this means to ignore newlines until "baseurl:"
