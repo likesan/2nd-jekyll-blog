@@ -5,18 +5,10 @@
 
 <!-- try page content -->
 {% if page.title %}
-{page.title}
+{{page.title}}
 {% endif%}
+<!-- page content end -->
 
-  <!-- try post content -->
-  {% if post.content %}
-  {% assign title = post.title %}
-    {{ post.content}}
-    {{title}}
-  {% end if%}
-<!-- try end -->
-
-  <meta prefix="og: http://ogp.me/ns#" name="description" content="{{ post.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="fb:app_id" content="2378615019060878">
 
 {% if page.is_post %}
@@ -26,9 +18,9 @@
 {% endif %}
 
   <meta property="og:type" content="{{ type }}">
-  <meta property="og:site_name" content="Freedom, Goodness">
-  <meta property="og:title" content="{{ post.title }}">
-  <meta property="og:description" content="{{ post.content | markdownify | strip_html  | truncatewords: 15 }}">
+  <meta property="og:site_name" content="{{site.}}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="article:author" content="SJ">
   <meta property="article:publisher" content="SJ">
