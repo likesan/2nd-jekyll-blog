@@ -1,4 +1,4 @@
-<head>
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
   <meta property="og:type" content="{{ type }}">
   <meta property="og:site_name" content="{{site.title}}">
   <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="yoyo">
+  <meta property="og:description" content="{{ page.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="article:author" content="SJ">
   <meta property="article:publisher" content="SJ">
@@ -109,5 +109,3 @@
     gtag('config', 'UA-116676814-1');
   </script>
 
-
-</head>
