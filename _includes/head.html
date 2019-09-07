@@ -11,6 +11,10 @@
 
 {% if page.is_post %}
   {% assign type="article" %}
+  {% assign pageTitle = page.title %}
+  {% assign pageThumbnail = page.thumbnail %}
+  {{ pageTitle }}
+  {{ pageThumbnail }}
 {% else %}
   {% assign type="website" %}
 {% endif %}
