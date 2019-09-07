@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /reading-note/
+name: Book Review
 ---
 
 책을 많이 읽고 싶다는 욕구가 생긴만큼

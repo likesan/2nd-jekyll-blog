@@ -8,16 +8,25 @@
   
     <meta property="fb:app_id" content="2378615019060878">
   
-    {% if page.is_post %}
+    {% if page.layout == 'post' %}
     {% assign type="article" %}
+    {% assign title = page.title %}
+    {% assign description = page.content %}
+    {% assign thumbnail = page.thumbnail %}
+  
     {% else %}
     {% assign type="website" %}
-    {% endif %}
+    {% assign title = site.title %}
+    {% assign description = site.description %}
+    {% assign thumbnail = site.thumbnail %}
   
+    {% endif %}
+
+    <!-- page layout : {{ page.layout }} -->
+    <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:type" content="{{ type }}">
-    <meta property="og:site_name" content="{{site.title}}">
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:description" content="{{ page.content | markdownify | strip_html  | truncatewords: 15 }}">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{description | markdownify | strip_html  | truncatewords: 15 }}">
     <meta property="og:url" content="{{ site.url }}">
     <meta property="article:author" content="SJ">
     <meta property="article:publisher" content="SJ">
@@ -25,15 +34,15 @@
   
     <!-- social image sharing -->
    
-    <meta property="og:image:url" content="{{ page.thumbnail }}">
-    <meta property="og:image:secure_url" content="{{ page.thumbnail }}">
+    <meta property="og:image:url" content="{{ thumbnail }}">
+    <meta property="og:image:secure_url" content="{{ thumbnail }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="600">
   
     <meta name="google-site-verification" content="KWKlmrDtMWVC1JUv-UGw_uyEusF9aGtzlKDcepw08HI" />
     <meta name="naver-site-verification" content="3fe947b693663b49943a1272b8cb8ae6d2e5082f" />
   
-    <title>{{ page.title }}
+    <title>{{ page.name }}
     </title>
   
     <!-- CSS -->
@@ -64,13 +73,15 @@
     <link rel="stylesheet" href="{{ "/css/bucketlist.css" | prepend : site.baseurl }}">
     {% endif %}
   
-    {% if page.layout == "post" %}
+    {% if page.layout == "post"  %}
     <link rel="stylesheet" href="{{ "/css/dq.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/related_post.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/ad.css" | prepend: site.baseurl }}">
     {% endif %}
 
+   
+   
     <!-- mermaid -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
     <script>
@@ -121,10 +132,7 @@
     {% include nav.html %}
 
     <div class="nine columns margin-top" style="z-index:100;">
-     
-     
       <div class="wrapper">
-     
         {{ content }}
       </div>
     </div>
