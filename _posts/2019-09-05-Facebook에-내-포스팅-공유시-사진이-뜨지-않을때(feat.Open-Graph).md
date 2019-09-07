@@ -20,12 +20,12 @@ thumbnail : https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixlib=r
 
 ## 해결방법
 
-1. [페이스북 디버깅 페이지](https://developers.facebook.com/tools/debug/sharing)서 해당 링크가 어떻게 나오는지 파악해본다.
+1. [페이스북 디버깅 페이지](https://developers.facebook.com/tools/debug/sharing)서 해당 링크의 preview가 어떻게 나오는지 파악해본다.
 
 
 2. og:image:url 과 og:image:secure_url 을 넣어준다.
 
-    secure_url 은 https로 시작하는 링크를 위해 넣어준다.
+    secure_url 은 https로 시작하는 링크를 위해 넣어준다. 참고한 [링크](https://www.joomshaper.com/forums/fix-facebook-provided-og-image-url-encountered-an-unknown-error)
 
 
 ```html
@@ -56,3 +56,4 @@ thumbnail: https://user-images.githubusercontent.com/35059428/64468325-069f3300-
 `% include epic.html %` 이라는 Liquid 가 나타날 뿐, Description이 불러와지지 않은 문제가 있다.
 
 메타 태그가 해당 포스트의 title 부분이 불러와지기 전에, 로딩되어 나타나는 문제가 아닐까 유추 중... 계속 해결 중인 부분
+

@@ -2,9 +2,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="
-  {% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
-  {% elsif post.content %}{{ post.content | markdownify | strip_html  | truncatewords: 15 }}
+  <meta prefix="og: http://ogp.me/ns#" name="description" content="
+  {% if post.content %}{{ post.content | markdownify | strip_html  | truncatewords: 15 }}
   {% else %}{{ site.description }}
   {% endif %}">
 
@@ -16,26 +15,26 @@
   {% assign type="website" %}
 {% endif %}
 
-  <meta property="og:type" content="{{ type }}">
-  <meta property="og:site_name" content="Freedom, Goodness">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}">
-  <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{% else %}{{site.description}}{%endif%}">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="article:author" content="SJ">
-  <meta property="article:publisher" content="SJ">
+  <meta prefix="og: http://ogp.me/ns#" property="og:type" content="{{ type }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:site_name" content="Freedom, Goodness">
+  <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{% else %}{{site.description}}{%endif%}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.url }}">
+  <meta prefix="og: http://ogp.me/ns#" property="article:author" content="SJ">
+  <meta prefix="og: http://ogp.me/ns#" property="article:publisher" content="SJ">
 
 
 <!-- social image sharing -->
 {% if page.thumbnail %}
-  <meta property="og:image:url" content="{{ page.thumbnail }}">
-  <meta property="og:image:secure_url" content="{{ page.thumbnail }}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="600">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:url" content="{{ page.thumbnail }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:secure_url" content="{{ page.thumbnail }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:width" content="1200">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:height" content="600">
 {% else %}
-  <meta property="og:image:url" content="{{ site.thumbnail }}">
-  <meta property="og:image:secure_url" content="{{ site.thumbnail }}">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="600">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:url" content="{{ site.thumbnail }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:secure_url" content="{{ site.thumbnail }}">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:width" content="1200">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image:height" content="600">
 {% endif %}
   <!-- social image sharing set end -->
 
