@@ -3,6 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  {% if post.content %}
+  {% assign title = post.title %}
+    {{ post.content}}
+    {{title}}
+  {% end if%}
+
 
   <meta prefix="og: http://ogp.me/ns#" name="description" content="{{ post.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="fb:app_id" content="2378615019060878">
