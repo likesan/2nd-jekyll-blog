@@ -12,6 +12,7 @@ defaults:
   type: "posts"
   values:
   is_post: true
+  thumbnail: https://user-images.githubusercontent.com/35059428/64468325-069f3300-d156-11e9-80ec-45e98bd19703.jpg
 
 # Site settings
 title: SJ
