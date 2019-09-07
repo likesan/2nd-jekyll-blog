@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta prefix="og: http://ogp.me/ns#" name="description" content="
-  {% if post.content %}{{ post.content | markdownify | strip_html  | truncatewords: 15 }}
+  {% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}
   {% else %}{{ site.description }}
   {% endif %}">
 
@@ -18,7 +18,7 @@
   <meta property="og:type" content="{{ type }}">
   <meta property="og:site_name" content="Freedom, Goodness">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}">
-  <meta property="og:description" content="{% if page.content %}{{ page.content | strip_html  | truncatewords: 15 }}{% else %}{{site.description}}{%endif%}">
+  <meta property="og:description" content="{% if page.content %}{{ page.content | markdownify | strip_html  | truncatewords: 15 }}{% else %}{{site.description}}{%endif%}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="article:author" content="SJ">
   <meta property="article:publisher" content="SJ">
