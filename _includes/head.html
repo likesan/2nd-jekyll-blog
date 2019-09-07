@@ -4,8 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- try page content -->
-{% if page.title %}
-{{page.title}}
+{% if page %}
+{% assign title = page.title %}
+{% assign thumbnail = page.thumbnail %}
+{{title}}
+{{thumbnail}}
 {% endif%}
 <!-- page content end -->
 
@@ -18,7 +21,7 @@
 {% endif %}
 
   <meta property="og:type" content="{{ type }}">
-  <meta property="og:site_name" content="{{site.}}">
+  <meta property="og:site_name" content="{{site.title}}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:description" content="{{ page.content | markdownify | strip_html  | truncatewords: 15 }}">
   <meta property="og:url" content="{{ site.url }}">
