@@ -1,6 +1,5 @@
 <div class="soft" id="epic-wrapper">
     <ul>
-
         <li class="epic-pics-list">
 
             {% for post in site.posts limit:4 %}
@@ -50,7 +49,6 @@
             {% endfor %}
         </li>
 
-
         <li class="epic-pics-list">
             {% for post in site.posts offset:8 limit:3 %}
             <a class="post-a" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
@@ -73,7 +71,7 @@
             </a>
 
             {% endfor %}
-
+        </li>
 
         <li class="epic-pics-list">
             {% for post in site.posts offset:11 limit:2 %}
