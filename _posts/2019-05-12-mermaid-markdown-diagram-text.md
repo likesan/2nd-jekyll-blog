@@ -1,7 +1,9 @@
 ---
 layout : post
-category : [coding, jekyll, mermaid, diagram]
+category : coding
+tags : [coding, jekyll, mermaid, diagram]
 comments : true
+thumbnail : https://user-images.githubusercontent.com/35059428/64475462-c374ac80-d1b5-11e9-8e94-639302d6dbd4.png
 ---
 
 * TOC

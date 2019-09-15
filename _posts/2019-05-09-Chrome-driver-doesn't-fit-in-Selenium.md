@@ -1,7 +1,9 @@
 ---
 layout : post
-category : [selenium, chrome, coding]
+category : coding
+tags : [selenium, chrome, coding]
 comments : true
+thumbnail : https://user-images.githubusercontent.com/35059428/64475517-4eee3d80-d1b6-11e9-9974-be484e3b80b5.png
 ---
 
 # Problem

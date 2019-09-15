@@ -1,7 +1,8 @@
 ---
 layout: post
 comments : true 
-category : [ Coding, Google Analytics, Inner Traffic, filtering]
+category : coding 
+tags : [ Coding, Google Analytics, Inner Traffic, filtering]
 thumbnail : https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1120&q=80
 ---
 
