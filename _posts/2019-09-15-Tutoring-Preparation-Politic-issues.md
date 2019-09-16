@@ -3,7 +3,7 @@ layout : post
 category : Tutoring
 comments : true
 tags : [Politic, South Korea, Assembly, Congress, Parties]
-thumbnail : 
+thumbnail : https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80
 ---
 
 # Korea Politic Tutoring Preparation - Questions from my student
